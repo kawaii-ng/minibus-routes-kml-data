@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>港島區專線小巴4S號線：往石排灣</name>
+    <description><![CDATA[Hong Kong Island GMB Route 4S: to Shek Pai Wan<br><br><br>港島區專線小巴4S號線<br>石排灣—香港仔中心<br>路線圖及候車處位置(往石排灣方向)<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gh_4s.html<br><br>© www.16seats.net 著作權所有<br><br><br>Hong Kong Island GMB Route 4S<br>Shek Pai Wan - Aberdeen Centre<br>Route Map and Pick-up Location (Shek Pai Wan bound)<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gh_4s.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-2-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-3-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-3-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-4-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-4-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>候車處位置  Pick-up Location</name>
+      <Placemark>
+        <name>利港中心  Port Centre</name>
+        <description>西安街  Sai On St</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.154993,22.2488707,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>漁光邨白沙樓  Pak Sha Lau Yue Kwong Chuen</name>
+        <description>香港仔水塘道  Aberdeen Reservoir Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1567985,22.2516875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>漁光邨海鷗樓  Hoy Au Lau Yue Kwong Chuen</name>
+        <description>漁光道  Yue Kwong Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1578017,22.2520698,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>香港建造業工藝測試中心  HK Construction Industry Trade Testing Centre</name>
+        <description>漁光道  Yue Kwong Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1585608,22.2506708,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>扶康會康復中心  Fu Hong Society Rehabilitation Centre</name>
+        <description>漁光道  Yue Kwong Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1590525,22.2497686,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>石排灣邨碧綠樓  Pik Luk Hse Shek Pai Wan Est</name>
+        <description>漁光道  Yue Kwong Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.157723,22.24823,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>漁暉苑日暉閣  Yat Fai Hse Yue Fai Court</name>
+        <description>漁光道  Yue Kwong Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1567357,22.2486447,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>石排灣公共運輸交匯處  Shek Pai Wan PTI</name>
+        <description>石排灣公共運輸交匯處  Shek Pai Wan PTI</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.1575088,22.2501558,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線  Routeing</name>
+      <Placemark>
+        <name>行車路線  Routeing</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.15499,22.24884,0
+            114.15526,22.24884,0
+            114.15574,22.24885,0
+            114.15571,22.24913,0
+            114.1557,22.24917,0
+            114.15569,22.2492,0
+            114.15567,22.24923,0
+            114.15565,22.24927,0
+            114.15564,22.24928,0
+            114.15571,22.24941,0
+            114.15577,22.24942,0
+            114.15583,22.24942,0
+            114.15584,22.24943,0
+            114.15586,22.24943,0
+            114.15589,22.24945,0
+            114.15596,22.24953,0
+            114.156,22.24959,0
+            114.15603,22.24962,0
+            114.15605,22.24979,0
+            114.15637,22.25038,0
+            114.15641,22.25047,0
+            114.15643,22.25055,0
+            114.15646,22.25074,0
+            114.15644,22.25104,0
+            114.15644,22.25109,0
+            114.15644,22.25114,0
+            114.15646,22.25118,0
+            114.15659,22.25138,0
+            114.15676,22.25159,0
+            114.15693,22.25176,0
+            114.15717,22.25196,0
+            114.15739,22.2521,0
+            114.1575,22.25217,0
+            114.15754,22.25219,0
+            114.15757,22.2522,0
+            114.15759,22.25221,0
+            114.15762,22.25221,0
+            114.15764,22.2522,0
+            114.15766,22.25219,0
+            114.15767,22.25218,0
+            114.15769,22.25216,0
+            114.15771,22.25213,0
+            114.15774,22.25208,0
+            114.15785,22.25193,0
+            114.15795,22.25178,0
+            114.15806,22.25162,0
+            114.15816,22.25147,0
+            114.15822,22.2514,0
+            114.15824,22.25137,0
+            114.15827,22.25133,0
+            114.15833,22.25121,0
+            114.15837,22.2511,0
+            114.15843,22.25093,0
+            114.15849,22.25076,0
+            114.15851,22.25068,0
+            114.15853,22.25063,0
+            114.15858,22.25055,0
+            114.15893,22.24992,0
+            114.15899,22.24979,0
+            114.15912,22.24953,0
+            114.15916,22.24943,0
+            114.15916,22.24938,0
+            114.15917,22.24933,0
+            114.15917,22.24929,0
+            114.15916,22.24924,0
+            114.15916,22.24921,0
+            114.15915,22.24916,0
+            114.15914,22.24912,0
+            114.15912,22.24908,0
+            114.1591,22.24905,0
+            114.15906,22.249,0
+            114.15903,22.24897,0
+            114.15902,22.24896,0
+            114.15899,22.24893,0
+            114.15893,22.24889,0
+            114.1589,22.24887,0
+            114.1588,22.2488,0
+            114.15837,22.24858,0
+            114.15831,22.24855,0
+            114.15763,22.24823,0
+            114.15741,22.24812,0
+            114.15731,22.24809,0
+            114.15728,22.24806,0
+            114.1572,22.24806,0
+            114.15714,22.24806,0
+            114.15706,22.24807,0
+            114.15699,22.24809,0
+            114.15693,22.24813,0
+            114.15689,22.24816,0
+            114.15686,22.24819,0
+            114.15685,22.2482,0
+            114.15681,22.24825,0
+            114.15679,22.24828,0
+            114.15677,22.24833,0
+            114.15676,22.24837,0
+            114.15675,22.24843,0
+            114.15675,22.24846,0
+            114.15675,22.24851,0
+            114.15685,22.24906,0
+            114.15687,22.24934,0
+            114.15687,22.24936,0
+            114.15689,22.24946,0
+            114.15691,22.24953,0
+            114.15695,22.24962,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Port Centre, Aberdeen, Hong Kong</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1549942,22.2488362,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>45 Yue Kwong Rd, Aberdeen, Hong Kong</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1569512,22.2496198,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
