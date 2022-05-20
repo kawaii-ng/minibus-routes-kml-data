@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>新界區專線小巴611A號線：往元朗站</name>
+    <description><![CDATA[New Territories GMB Route 611A: to Yuen Long Station<br><br><br>新界區專線小巴611A號線<br>山貝村＞元朗站<br>路線圖及分站位置<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gn_611a.html<br><br>© www.16seats.net 著作權所有<br><br><br>New Territories GMB Route 611A<br>Shan Pui Tsuen > Yuen Long Station<br>Route Map and Stop Location<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gn_611a.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-2-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-3-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-3-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-4-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-4-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>分站位置  Stop Location</name>
+      <Placemark>
+        <name>1. 山貝村  Shan Pui Tsuen</name>
+        <description>山貝路  Shan Pui Rd</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.035382,22.452226,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2. 采葉庭  The Parcville</name>
+        <description>元朗舊墟路  Yuen Long Kau Hui Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.033564,22.450377,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3. 鐘聲學校  Chung Sing Sch</name>
+        <description>元朗舊墟路  Yuen Long Kau Hui Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.03344,22.449138,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4. 港鐵元朗站  MTR Yuen Long Station</name>
+        <description>朗日路  Long Yat Rd</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.034773,22.446587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線  Routeing</name>
+      <Placemark>
+        <name>行車路線  Routeing</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.03536,22.45219,0
+            114.03524,22.45224,0
+            114.03493,22.4518,0
+            114.03489,22.45174,0
+            114.03487,22.45172,0
+            114.03482,22.45167,0
+            114.03475,22.45159,0
+            114.03471,22.45156,0
+            114.03465,22.45154,0
+            114.03456,22.45152,0
+            114.03443,22.45151,0
+            114.0343,22.4515,0
+            114.03416,22.4515,0
+            114.03384,22.45149,0
+            114.0338,22.45119,0
+            114.03359,22.45052,0
+            114.03356,22.45041,0
+            114.03353,22.45032,0
+            114.03348,22.4501,0
+            114.03345,22.44994,0
+            114.03343,22.44981,0
+            114.03342,22.44968,0
+            114.03342,22.44951,0
+            114.03341,22.44925,0
+            114.03343,22.44902,0
+            114.03346,22.44886,0
+            114.03349,22.44875,0
+            114.03354,22.44863,0
+            114.03363,22.44847,0
+            114.03391,22.44819,0
+            114.03401,22.44811,0
+            114.03404,22.44806,0
+            114.03406,22.44801,0
+            114.03412,22.44786,0
+            114.03414,22.44772,0
+            114.03414,22.44753,0
+            114.03414,22.44746,0
+            114.03414,22.44745,0
+            114.03413,22.44738,0
+            114.03411,22.4473,0
+            114.03402,22.44697,0
+            114.03402,22.4469,0
+            114.03402,22.44678,0
+            114.03403,22.44674,0
+            114.03405,22.44671,0
+            114.03407,22.44668,0
+            114.03411,22.44665,0
+            114.03416,22.44661,0
+            114.03421,22.44658,0
+            114.03429,22.44659,0
+            114.03436,22.44659,0
+            114.03437,22.44659,0
+            114.03442,22.44659,0
+            114.03449,22.44657,0
+            114.03454,22.44657,0
+            114.03476,22.44654,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>香港元朗山貝路</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.0353636,22.4521882,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Yuen Long Station, Yuen Long, Hong Kong</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.0347601,22.4465449,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

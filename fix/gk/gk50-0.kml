@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>九龍區專線小巴50號線：往觀塘</name>
+    <description><![CDATA[Kowloon GMB Route 50: to Kwun Tong<br><br><br>九龍區專線小巴50號線<br>聯合醫院—觀塘(裕民坊)<br>路線圖及分站位置(往觀塘方向)<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gk_50.html<br><br>© www.16seats.net 著作權所有<br><br><br>Kowloon GMB Route 50<br>United Christian Hospital - Kwun Tong (Yue Man Sq)<br>Route Map and Stop Location (Kwun Tong bound)<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gk_50.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-1-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-1-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-2-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-3-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-3-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-4-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-4-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>分站位置  Stop Location</name>
+      <Placemark>
+        <name>1. 基督教聯合醫院J座  Blk J United Christian Hospital</name>
+        <styleUrl>#icon-ci-1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.2278564,22.3229717,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2. 秀雅道  Sau Nga Rd</name>
+        <description>秀雅道  Sau Nga Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.227056,22.321339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3. 華峰園  Wah Fung Gardens</name>
+        <description>協和街  Hip Wo St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.226854,22.320666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4. 祥和苑  Cheung Wo Court</name>
+        <description>協和街  Hip Wo St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.227536,22.319259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5. 和樂邨  Wo Lok Est</name>
+        <description>協和街  Hip Wo St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.226822,22.317463,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6. 月華街遊樂場  Yuet Wah St Playground</name>
+        <description>協和街  Hip Wo St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.226221,22.316083,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7. 裕民坊公共運輸交匯處  Yue Man Square PTI</name>
+        <description>裕民坊公共運輸交匯處  Yue Man Square PTI</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.2247575,22.3146152,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線  Routeing</name>
+      <Placemark>
+        <name>行車路線  Routeing</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.22786,22.32293,0
+            114.22788,22.32293,0
+            114.2279,22.32294,0
+            114.22792,22.32294,0
+            114.22799,22.32298,0
+            114.22808,22.32285,0
+            114.22825,22.32267,0
+            114.22831,22.32259,0
+            114.22833,22.32256,0
+            114.22835,22.32252,0
+            114.22838,22.32248,0
+            114.22841,22.3224,0
+            114.22843,22.32236,0
+            114.22844,22.32235,0
+            114.22846,22.32231,0
+            114.22848,22.32227,0
+            114.22851,22.3222,0
+            114.22839,22.32195,0
+            114.22835,22.32192,0
+            114.2283,22.32189,0
+            114.22827,22.32187,0
+            114.22822,22.32184,0
+            114.22811,22.3218,0
+            114.22802,22.32176,0
+            114.22784,22.32168,0
+            114.22767,22.32161,0
+            114.22727,22.32145,0
+            114.22726,22.32145,0
+            114.22655,22.32117,0
+            114.2267,22.32085,0
+            114.2268,22.32067,0
+            114.22688,22.32053,0
+            114.22704,22.32022,0
+            114.2273,22.31977,0
+            114.22736,22.31967,0
+            114.22736,22.31965,0
+            114.22747,22.31946,0
+            114.22748,22.31941,0
+            114.22748,22.3194,0
+            114.2275,22.31934,0
+            114.2275,22.31928,0
+            114.2275,22.31921,0
+            114.22748,22.3191,0
+            114.22748,22.31909,0
+            114.22746,22.31901,0
+            114.22746,22.319,0
+            114.22743,22.31893,0
+            114.22723,22.31849,0
+            114.22721,22.31845,0
+            114.22716,22.31832,0
+            114.22712,22.31826,0
+            114.22704,22.31809,0
+            114.22698,22.31792,0
+            114.22692,22.31778,0
+            114.22691,22.31777,0
+            114.22688,22.31769,0
+            114.22675,22.31739,0
+            114.22647,22.31674,0
+            114.22644,22.31666,0
+            114.22638,22.31654,0
+            114.22623,22.3162,0
+            114.22615,22.31604,0
+            114.22612,22.31597,0
+            114.22605,22.31581,0
+            114.22592,22.31552,0
+            114.22588,22.31541,0
+            114.22587,22.31537,0
+            114.22581,22.31525,0
+            114.22572,22.31503,0
+            114.2257,22.31497,0
+            114.22569,22.3149,0
+            114.22569,22.31484,0
+            114.22569,22.31478,0
+            114.2257,22.31475,0
+            114.22571,22.31471,0
+            114.22573,22.31464,0
+            114.22581,22.31444,0
+            114.22593,22.31419,0
+            114.22598,22.31409,0
+            114.22603,22.31397,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>香港秀茂坪秀雅道</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.2278587,22.3229284,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>25 Tung Yan St, Kwun Tong, Hong Kong</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.226028,22.3139662,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

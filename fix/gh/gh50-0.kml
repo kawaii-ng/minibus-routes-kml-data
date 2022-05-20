@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>港島區專線小巴50號線：往西灣河站</name>
+    <description><![CDATA[Hong Kong Island GMB Route 50: to Sai Wan Ho Station<br><br><br>港島區專線小巴50號線<br>耀東邨—西灣河站<br>路線圖及候車處位置(往西灣河站方向)<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gh_50.html<br><br>© www.16seats.net 著作權所有<br><br><br>Hong Kong Island GMB Route 50<br>Yiu Tung Est - Sai Wan Ho Station<br>Route Map and Pick-up Location (Sai Wan Ho Station bound)<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gh_50.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-2-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-3-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-3-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-4-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-4-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>候車處位置  Pick-up Location</name>
+      <Placemark>
+        <name>耀東商場  Yiu Tung Shopping Centre</name>
+        <description>耀興道  Yiu Hing Rd</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.2232849,22.2777276,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>耀東邨耀貴樓  Yiu Kwai Hse Yiu Tung Est</name>
+        <description>耀興道  Yiu Hing Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.2248726,22.2757448,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>東盛苑  Tung Shing Court</name>
+        <description>耀興道  Yiu Hing Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.2262157,22.2758948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>筲箕灣廣場  Shaukeiwan Plaza</name>
+        <description>耀興道  Yiu Hing Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.2260798,22.2772959,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>南康街  Nam Hong St</name>
+        <description>耀興道  Yiu Hing Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.2256225,22.2780902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>聖十字徑  Holy Cross Path</name>
+        <description>西灣河街  Sai Wan Ho St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.2222534,22.2808512,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>港鐵西灣河站  MTR Sai Wan Ho Station</name>
+        <description>太安街  Tai On St</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.2225529,22.282443,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線  Routeing</name>
+      <Placemark>
+        <name>Directions from 33 Yiu Hing Rd, Hong Kong to 14 Tai On St, Sai Wan Ho, Hong Kong</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.22325,22.27771,0
+            114.22326,22.27768,0
+            114.22356,22.2773,0
+            114.22405,22.27662,0
+            114.22408,22.27659,0
+            114.22454,22.27595,0
+            114.2246,22.2759,0
+            114.22467,22.27583,0
+            114.22478,22.27576,0
+            114.22484,22.27571,0
+            114.22491,22.27568,0
+            114.22492,22.27567,0
+            114.2251,22.27561,0
+            114.22522,22.27557,0
+            114.22538,22.27555,0
+            114.22553,22.27555,0
+            114.22563,22.27556,0
+            114.22583,22.27561,0
+            114.22593,22.27564,0
+            114.2261,22.27575,0
+            114.22615,22.27579,0
+            114.22621,22.27584,0
+            114.22628,22.27588,0
+            114.22643,22.27606,0
+            114.22651,22.2762,0
+            114.22654,22.27634,0
+            114.22654,22.27645,0
+            114.22651,22.2766,0
+            114.22642,22.27677,0
+            114.22623,22.2771,0
+            114.22619,22.27717,0
+            114.22612,22.27731,0
+            114.22579,22.27788,0
+            114.2256,22.27822,0
+            114.22518,22.27896,0
+            114.22515,22.27902,0
+            114.22505,22.27933,0
+            114.22522,22.27941,0
+            114.22523,22.27941,0
+            114.22534,22.27947,0
+            114.22539,22.2795,0
+            114.2253,22.27966,0
+            114.22528,22.27968,0
+            114.22527,22.2797,0
+            114.22525,22.27971,0
+            114.22521,22.27973,0
+            114.22517,22.27974,0
+            114.22482,22.2798,0
+            114.22455,22.27985,0
+            114.22436,22.27989,0
+            114.22421,22.27993,0
+            114.2241,22.27996,0
+            114.22395,22.28001,0
+            114.22372,22.28009,0
+            114.22336,22.28028,0
+            114.22318,22.28036,0
+            114.2229,22.2805,0
+            114.22267,22.28061,0
+            114.22266,22.28062,0
+            114.22262,22.28064,0
+            114.22257,22.28067,0
+            114.22235,22.28082,0
+            114.22198,22.28113,0
+            114.22197,22.28114,0
+            114.22195,22.28116,0
+            114.22194,22.28117,0
+            114.22194,22.28118,0
+            114.22194,22.28119,0
+            114.22194,22.28121,0
+            114.22195,22.28124,0
+            114.22189,22.28132,0
+            114.22161,22.28168,0
+            114.22156,22.28175,0
+            114.22115,22.28222,0
+            114.22104,22.28232,0
+            114.22078,22.28264,0
+            114.22123,22.28294,0
+            114.22133,22.283,0
+            114.22164,22.28321,0
+            114.22174,22.28327,0
+            114.22207,22.2835,0
+            114.22242,22.28308,0
+            114.22278,22.28264,0
+            114.22253,22.28247,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>33 Yiu Hing Rd, Hong Kong</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.2232466,22.2777064,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>14 Tai On St, Sai Wan Ho, Hong Kong</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.2225288,22.2824728,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

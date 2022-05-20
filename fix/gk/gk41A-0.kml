@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>九龍區專線小巴41A號線：往石硤尾</name>
+    <description><![CDATA[Kowloon GMB Route 41A: to Shek Kip Mei<br><br><br>九龍區專線小巴41A號線<br>又一城—石硤尾<br>路線圖及分站位置(往石硤尾方向)<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gk_41a.html<br><br>© www.16seats.net 著作權所有<br><br><br>Kowloon GMB Route 41A<br>Festival Walk - Shek Kip Mei<br>Route Map and Stop Location (Shek Kip Mei bound)<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gk_41a.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-2-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-3-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-3-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-4-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-4-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-4186F0-5000-nodesc-normal">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-4186F0-5000-nodesc-highlight">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-4186F0-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-4186F0-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-4186F0-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>分站位置  Stop Location</name>
+      <Placemark>
+        <name>1. 又一城  Festival Walk</name>
+        <description>又一城公共交通總站  Festival Walk Public Transport Terminus</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.17527,22.336461,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2. 創新中心  Innocentre</name>
+        <description>達之路  Tat Chee Ave</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.175698,22.3347561,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3. 又一村花園  Village Gardens</name>
+        <description>達之路  Tat Chee Ave</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1755114,22.3329683,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4. 瑰麗新村  Grandeur Villa</name>
+        <description>瑰麗路  Grandeur Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.175023,22.3326832,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[5. 瑪利諾神父教會學校  Maryknoll Fathers' Sch]]></name>
+        <description>瑰麗路  Grandeur Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.173808,22.3335229,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6. 龍珠街  Lung Chu St</name>
+        <description>龍珠街  Lung Chu St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.172508,22.334183,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7. 大坑東邨東海樓  Tung Hoi Hse Tai Hang Tung Est</name>
+        <description>大坑東道  Tai Hang Tung Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1711871,22.3327364,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8. 港鐵石硤尾站  MTR Shek Kip Mei Station</name>
+        <description>窩仔街  Woh Chai St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.169509,22.3315091,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9. 石硤尾商場  Shek Kip Mei Shopping Centre</name>
+        <description>巴域街  Berwick St</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.165941,22.331807,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>行車路線(2/2)  Routeing (2/2)</name>
+        <styleUrl>#line-4186F0-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.166533,22.332857,0
+            114.1661177,22.332396,0
+            114.165826,22.3320626,0
+            114.1657174,22.3319408,0
+            114.1659196,22.3317792,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線(1/2)  Routeing (1/2)</name>
+      <Placemark>
+        <name>行車路線(1/2)  Routeing (1/2)</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.17516,22.3362,0
+            114.17523,22.33616,0
+            114.17525,22.33615,0
+            114.17531,22.33611,0
+            114.17539,22.33604,0
+            114.17545,22.33597,0
+            114.1755,22.33593,0
+            114.17556,22.33586,0
+            114.17559,22.33574,0
+            114.1756,22.33573,0
+            114.17564,22.33564,0
+            114.17565,22.33559,0
+            114.17567,22.33555,0
+            114.17568,22.33551,0
+            114.17569,22.33544,0
+            114.1757,22.33536,0
+            114.17571,22.33529,0
+            114.17571,22.33522,0
+            114.17571,22.33518,0
+            114.1757,22.33511,0
+            114.17569,22.33499,0
+            114.17567,22.33492,0
+            114.17558,22.33408,0
+            114.17544,22.33269,0
+            114.17475,22.33273,0
+            114.17444,22.33274,0
+            114.17431,22.33275,0
+            114.17421,22.33276,0
+            114.17415,22.33277,0
+            114.17406,22.33282,0
+            114.17396,22.33288,0
+            114.17392,22.33292,0
+            114.17389,22.33297,0
+            114.17387,22.33301,0
+            114.17385,22.33307,0
+            114.17382,22.33313,0
+            114.17381,22.33324,0
+            114.17387,22.33365,0
+            114.17389,22.33386,0
+            114.1739,22.334,0
+            114.17389,22.33406,0
+            114.17387,22.3341,0
+            114.17384,22.33416,0
+            114.1738,22.3342,0
+            114.17375,22.33425,0
+            114.1737,22.33429,0
+            114.17353,22.33441,0
+            114.17334,22.33457,0
+            114.17328,22.33454,0
+            114.17322,22.33452,0
+            114.17319,22.3345,0
+            114.17312,22.33445,0
+            114.17295,22.33425,0
+            114.17288,22.33418,0
+            114.17285,22.33416,0
+            114.17282,22.33414,0
+            114.17279,22.33413,0
+            114.17275,22.33413,0
+            114.17271,22.33414,0
+            114.17266,22.33415,0
+            114.17261,22.33417,0
+            114.17255,22.3342,0
+            114.17249,22.33422,0
+            114.17222,22.33437,0
+            114.17204,22.33414,0
+            114.17186,22.33391,0
+            114.17152,22.33349,0
+            114.17139,22.33333,0
+            114.17138,22.33331,0
+            114.1713,22.33313,0
+            114.17122,22.33292,0
+            114.17114,22.33273,0
+            114.17109,22.33259,0
+            114.17108,22.33257,0
+            114.17106,22.33255,0
+            114.17105,22.33254,0
+            114.17103,22.33252,0
+            114.17098,22.33248,0
+            114.17069,22.33231,0
+            114.17059,22.33225,0
+            114.17056,22.33223,0
+            114.17053,22.3322,0
+            114.1705,22.33217,0
+            114.17049,22.33214,0
+            114.17048,22.33214,0
+            114.17046,22.33209,0
+            114.17044,22.33203,0
+            114.1704,22.33192,0
+            114.17039,22.33185,0
+            114.17038,22.3318,0
+            114.17037,22.33174,0
+            114.17034,22.33155,0
+            114.16973,22.33155,0
+            114.16905,22.33155,0
+            114.16875,22.33154,0
+            114.16847,22.33156,0
+            114.16824,22.3316,0
+            114.16808,22.33168,0
+            114.16793,22.33176,0
+            114.16791,22.33178,0
+            114.16751,22.3321,0
+            114.1674,22.33218,0
+            114.16731,22.33226,0
+            114.16692,22.33255,0
+            114.16653,22.33286,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>香港九龍塘九龍九龍塘達之路80號</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1751583,22.3362001,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>香港石硤尾窩仔街100號</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1665327,22.3328573,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

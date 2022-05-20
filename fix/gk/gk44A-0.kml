@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>九龍區專線小巴44A號線：往荔枝角站</name>
+    <description><![CDATA[Kowloon GMB Route 44A: to Lai Chi Kok Station<br><br><br>九龍區專線小巴44A號線<br>海麗邨—荔枝角站<br>路線圖及分站位置(往荔枝角站方向)<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gk_44a.html<br><br>© www.16seats.net 著作權所有<br><br><br>Kowloon GMB Route 44A<br>Hoi Lai Est - Lai Chi Kok Station<br>Route Map and Stop Location (Lai Chi Kok Station bound)<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gk_44a.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-2-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-3-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-3-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-4-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-4-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>分站位置  Stop Location</name>
+      <Placemark>
+        <name>1. 海麗邨  Hoi Lai Est</name>
+        <description>海麗邨公共運輸交匯處  Hoi Lai Est PTI</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.147418,22.332268,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[2. 深水埗官立小學  Sham Shui Po Gov't Pri Sch]]></name>
+        <description>深盛路  Sham Shing Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.147139,22.333682,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3. 荔枝角天主教小學  Laichikok Catholic Pri Sch</name>
+        <description>深盛路  Sham Shing Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.14885,22.333809,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4. D2 Place一期  D2 Place ONE</name>
+        <description>長義街  Cheung Yee St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.149373,22.336434,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5. 長沙灣廣場巴士總站  Cheung Sha Wan Plaza Bus Terminus</name>
+        <description>長沙灣廣場巴士總站  Cheung Sha Wan Plaza Bus Terminus</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.14873,22.336975,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線  Routeing</name>
+      <Placemark>
+        <name>Directions from 100 Sham Mong Rd, Cheung Sha Wan, Hong Kong to 4 Cheung Shun St, Cheung Sha Wan, Hong Kong</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.14746,22.33254,0
+            114.147,22.33286,0
+            114.1465,22.33325,0
+            114.14657,22.33334,0
+            114.14663,22.33342,0
+            114.14669,22.33347,0
+            114.14676,22.33352,0
+            114.1468,22.33354,0
+            114.14683,22.33356,0
+            114.14696,22.33361,0
+            114.14711,22.33364,0
+            114.14751,22.33368,0
+            114.14791,22.33371,0
+            114.1482,22.33372,0
+            114.14832,22.33373,0
+            114.14844,22.33374,0
+            114.14882,22.33377,0
+            114.14894,22.33377,0
+            114.14904,22.33378,0
+            114.14926,22.33377,0
+            114.14935,22.33377,0
+            114.14942,22.33376,0
+            114.14949,22.33374,0
+            114.14953,22.33374,0
+            114.14959,22.33372,0
+            114.14968,22.33368,0
+            114.14977,22.33363,0
+            114.14983,22.33359,0
+            114.14995,22.33351,0
+            114.15023,22.33379,0
+            114.15052,22.3341,0
+            114.15069,22.33427,0
+            114.15071,22.3343,0
+            114.15079,22.33437,0
+            114.15086,22.33443,0
+            114.15092,22.33447,0
+            114.15101,22.33459,0
+            114.15143,22.33507,0
+            114.1517,22.33536,0
+            114.15114,22.33578,0
+            114.15092,22.33591,0
+            114.15076,22.33597,0
+            114.15074,22.33597,0
+            114.15054,22.336,0
+            114.15031,22.33603,0
+            114.15006,22.336,0
+            114.15001,22.33615,0
+            114.14988,22.33645,0
+            114.14981,22.33662,0
+            114.14885,22.3363,0
+            114.1482,22.3361,0
+            114.14802,22.3366,0
+            114.14834,22.3367,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>100 Sham Mong Rd, Cheung Sha Wan, Hong Kong</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1474555,22.3325391,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4 Cheung Shun St, Cheung Sha Wan, Hong Kong</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.148342,22.3366971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

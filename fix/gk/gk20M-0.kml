@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>九龍區專線小巴20M號線：往黃大仙站</name>
+    <description><![CDATA[Kowloon GMB Route 20M: to Wong Tai Sin Station<br><br><br>九龍區專線小巴20M號線<br>新蒲崗(康強街)—黃大仙站<br>路線圖及分站位置(往黃大仙站方向)<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gk_20m.html<br><br>© www.16seats.net 著作權所有<br><br><br>Kowloon GMB Route 20M<br>San Po Kong (Hong Keung St) - Wong Tai Sin Station<br>Route Map and Stop Location (Wong Tai Sin bound)<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gk_20m.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-2-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-3-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-3-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-4-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-4-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>分站位置  Stop Location</name>
+      <Placemark>
+        <name>1. 康強街  Hong Keung St</name>
+        <description>康強街  Hong Keung St</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.1963193,22.3342114,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2. 錦榮街  Kam Wing St</name>
+        <description>崇齡街  Shung Ling St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.195808,22.335431,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3. 香港考評局新蒲崗評核中心  HKEAA San Po Kong Assessment Centre</name>
+        <description>爵祿街  Tseuk Luk St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.195837,22.336305,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4. 大成街街市  Tai Shing St Market</name>
+        <description>大成街  Tai Shing St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.194282,22.3373,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5. 黃大仙下邨龍禧樓  Lung Hei Hse Lower Wong Tai Sin Est</name>
+        <description>正德街  Ching Tak St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1926384,22.3393584,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6. 黃大仙下邨龍安樓  Lung On Hse Lower Wong Tai Sin Est</name>
+        <description>正德街  Ching Tak St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1929329,22.3410327,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7. 黃大仙中心南館  Temple Mall South</name>
+        <description>正德街  Ching Tak St</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.194413,22.34119,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線  Routeing</name>
+      <Placemark>
+        <name>行車路線  Routeing</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.19629,22.33424,0
+            114.19619,22.33415,0
+            114.19573,22.33445,0
+            114.19549,22.33463,0
+            114.19545,22.33466,0
+            114.19541,22.3347,0
+            114.19539,22.33473,0
+            114.19539,22.33476,0
+            114.19539,22.33478,0
+            114.1954,22.33481,0
+            114.19546,22.33489,0
+            114.19551,22.33495,0
+            114.19569,22.3352,0
+            114.19574,22.33527,0
+            114.19586,22.33544,0
+            114.19603,22.33567,0
+            114.19607,22.33571,0
+            114.19623,22.33593,0
+            114.1963,22.33605,0
+            114.19624,22.33608,0
+            114.19618,22.33613,0
+            114.19607,22.3362,0
+            114.19547,22.33659,0
+            114.19527,22.33672,0
+            114.1951,22.33683,0
+            114.19499,22.3369,0
+            114.19459,22.33715,0
+            114.19386,22.33762,0
+            114.19375,22.33769,0
+            114.19345,22.33787,0
+            114.19341,22.3379,0
+            114.19298,22.33818,0
+            114.19307,22.33831,0
+            114.19318,22.33846,0
+            114.19337,22.33874,0
+            114.19341,22.33879,0
+            114.19353,22.33895,0
+            114.19333,22.33905,0
+            114.19318,22.33913,0
+            114.19298,22.33922,0
+            114.19275,22.33934,0
+            114.19246,22.33949,0
+            114.19228,22.33962,0
+            114.19222,22.33968,0
+            114.19218,22.33972,0
+            114.19214,22.33979,0
+            114.19214,22.3398,0
+            114.1921,22.33989,0
+            114.19208,22.33995,0
+            114.19205,22.34002,0
+            114.19204,22.34006,0
+            114.19203,22.34009,0
+            114.19201,22.34022,0
+            114.192,22.34027,0
+            114.19201,22.34034,0
+            114.19209,22.34069,0
+            114.1924,22.34068,0
+            114.19251,22.34072,0
+            114.19272,22.34077,0
+            114.19281,22.34084,0
+            114.19294,22.34098,0
+            114.19297,22.34101,0
+            114.19299,22.34106,0
+            114.19303,22.3411,0
+            114.19315,22.34114,0
+            114.19321,22.34114,0
+            114.19322,22.34114,0
+            114.19396,22.34116,0
+            114.19413,22.34116,0
+            114.19418,22.34116,0
+            114.19432,22.34116,0
+            114.19441,22.34116,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>香港新蒲崗崇齡街91-93號安強大樓</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1962886,22.3342388,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>香港竹園正德街103號</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1944111,22.3411595,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

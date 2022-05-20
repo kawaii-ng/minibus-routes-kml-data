@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>九龍區專線小巴8M號線：往何文田站</name>
+    <description><![CDATA[Kowloon GMB Route 8M: to Ho Man Tin Station<br><br><br>九龍區專線小巴8M號線<br>何文田站—何文田邨<br>路線圖及分站位置(往何文田站方向)<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gk_8m.html<br><br>© www.16seats.net 著作權所有<br><br><br>Kowloon GMB Route 8M<br>Ho Man Tin Station - Ho Man Tin Est<br>Route Map and Stop Location (Ho Man Tin Station bound)<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gk_8m.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-2-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-3-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-3-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-4-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-4-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>分站位置  Stop Location</name>
+      <Placemark>
+        <name>1. 常和街  Sheung Wo St</name>
+        <description>常和街  Sheung Wo St</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.1830486,22.319296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2. 常樂邨  Sheung Lok Est</name>
+        <description>常盛街  Sheung Shing St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1819254,22.3198053,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3. 德蘭中學  St. Teresa Sec Sch</name>
+        <description>常盛街  Sheung Shing St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1805944,22.3183808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4. 何文田邨雅文樓  Nga Man Hse Ho Man Tin Est</name>
+        <description>佛光街  Fat Kwong St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1814748,22.315785,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[5. 何文田政府合署  Ho Man Tin Gov't Offices]]></name>
+        <description>忠孝街  Chung Hau St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1805179,22.3145096,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6. 都會大學賽馬會校園  HKMU Jockey Club Campus</name>
+        <description>忠孝街  Chung Hau St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1782877,22.3153346,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7. 忠民街  Chung Man St</name>
+        <description>忠孝街  Chung Hau St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1779699,22.3145636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8. 愛民邨頌民樓  Chung Man Hse Oi Man Est</name>
+        <description>忠孝街  Chung Hau St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1778706,22.3130431,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9. 愛民廣場  Oi Man Plaza</name>
+        <description>忠孝街  Chung Hau St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.178464,22.3118471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10. 港鐵何文田站  MTR Ho Man Tin Station</name>
+        <description>何文田站公共運輸設施  Ho Man Tin Station Public Transport Facility</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.1818644,22.3091014,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線  Routeing</name>
+      <Placemark>
+        <name>行車路線  Routeing</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.18301,22.31929,0
+            114.18304,22.31918,0
+            114.18304,22.31917,0
+            114.18304,22.31916,0
+            114.18303,22.31915,0
+            114.18303,22.31914,0
+            114.18302,22.31913,0
+            114.18301,22.31912,0
+            114.183,22.31912,0
+            114.18292,22.3191,0
+            114.1824,22.31898,0
+            114.18217,22.3199,0
+            114.1818,22.31982,0
+            114.18171,22.31979,0
+            114.18163,22.31976,0
+            114.18153,22.3197,0
+            114.1815,22.31969,0
+            114.18145,22.31964,0
+            114.18137,22.31956,0
+            114.18124,22.31939,0
+            114.18107,22.31918,0
+            114.1809,22.31894,0
+            114.1806,22.31847,0
+            114.18024,22.3179,0
+            114.1801,22.31761,0
+            114.18005,22.31752,0
+            114.17978,22.31699,0
+            114.18025,22.31679,0
+            114.18056,22.31663,0
+            114.18073,22.31653,0
+            114.18096,22.31637,0
+            114.18118,22.31619,0
+            114.18126,22.3161,0
+            114.18131,22.31603,0
+            114.18138,22.31588,0
+            114.18142,22.31582,0
+            114.18146,22.31571,0
+            114.1815,22.31559,0
+            114.18152,22.3155,0
+            114.18154,22.3154,0
+            114.18156,22.31521,0
+            114.18157,22.31511,0
+            114.1816,22.31489,0
+            114.18166,22.31457,0
+            114.18167,22.31455,0
+            114.18168,22.31452,0
+            114.18156,22.31449,0
+            114.18141,22.31445,0
+            114.18124,22.31442,0
+            114.18123,22.31443,0
+            114.18118,22.31444,0
+            114.18098,22.31443,0
+            114.18093,22.31443,0
+            114.18089,22.31443,0
+            114.18083,22.31444,0
+            114.18076,22.31446,0
+            114.18075,22.31446,0
+            114.18067,22.31449,0
+            114.1806,22.31452,0
+            114.18056,22.31454,0
+            114.1805,22.3146,0
+            114.18043,22.31468,0
+            114.18032,22.31481,0
+            114.18014,22.31504,0
+            114.18005,22.31517,0
+            114.18003,22.3152,0
+            114.17965,22.31565,0
+            114.17957,22.31572,0
+            114.17952,22.31576,0
+            114.17937,22.31585,0
+            114.17912,22.31588,0
+            114.17908,22.31588,0
+            114.17903,22.31588,0
+            114.17895,22.31586,0
+            114.17886,22.31582,0
+            114.17882,22.3158,0
+            114.17844,22.31554,0
+            114.17832,22.31543,0
+            114.17825,22.31536,0
+            114.1782,22.31531,0
+            114.17816,22.31526,0
+            114.17797,22.31491,0
+            114.17792,22.3145,0
+            114.17784,22.31396,0
+            114.17783,22.31358,0
+            114.17783,22.31355,0
+            114.17783,22.31352,0
+            114.17783,22.31334,0
+            114.17783,22.3133,0
+            114.17783,22.31301,0
+            114.17783,22.3127,0
+            114.17783,22.31266,0
+            114.17784,22.31262,0
+            114.17785,22.31258,0
+            114.17826,22.31202,0
+            114.17834,22.31194,0
+            114.1784,22.31186,0
+            114.17843,22.31183,0
+            114.17844,22.31182,0
+            114.17852,22.31172,0
+            114.17876,22.31144,0
+            114.17895,22.31121,0
+            114.17948,22.31073,0
+            114.17956,22.31064,0
+            114.17982,22.31041,0
+            114.17985,22.31038,0
+            114.18008,22.31014,0
+            114.18034,22.30988,0
+            114.18043,22.30979,0
+            114.18055,22.30968,0
+            114.18077,22.30951,0
+            114.18127,22.30921,0
+            114.18139,22.30916,0
+            114.18152,22.30913,0
+            114.18165,22.30911,0
+            114.18174,22.30912,0
+            114.18182,22.30913,0
+            114.18186,22.30914,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>香港採石山常和街8號</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1830131,22.3192901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>香港十二號山忠孝街; 港鐵何文田站</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.181857,22.3091418,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

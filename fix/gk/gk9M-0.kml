@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>九龍區專線小巴9M號線：白田邨來往石硤尾站</name>
+    <description><![CDATA[Kowloon GMB Route 9M: Pak Tin Est to/ from Shek Kip Mei Station<br><br><br>九龍區專線小巴9M號線<br>白田邨—石硤尾站 (循環線)<br>路線圖及分站位置<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gk_9m.html<br><br>© www.16seats.net 著作權所有<br><br><br>Kowloon GMB Route 9M<br>Pak Tin Est - Shek Kip Mei Station<br>Route Map and Stop Location<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gk_9m.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-2-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-3-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-3-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-4-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-4-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>分站位置  Stop Location</name>
+      <Placemark>
+        <name>1. 白田邨潤田樓  Yun Tin Hse Pak Tin Est
+</name>
+        <description>白雲街  Pak Wan St</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.1668381,22.3368541,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2. 白田邨9座  Blk 9 Pak Tin Est</name>
+        <description>白雲街  Pak Wan St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1657003,22.3369134,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3. 白田(白雲街)  Pak Tin (Pak Wan St)</name>
+        <description>白田(白雲街)公共運輸交匯處  Pak Tin (Pak Wan St) PTI</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.165573,22.3362984,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4. 賽馬會創意藝術中心  Jockey Club Creative Arts Centre</name>
+        <description>白田街  Pak Tin St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1654428,22.3348759,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5. 石硤尾邨22座  Blk 22 Shek Kip Mei Est</name>
+        <description>巴域街  Berwick St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.164101,22.333226,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6. 石硤尾商場  Shek Kip Mei Shopping Centre</name>
+        <description>巴域街  Berwick St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.166051,22.331725,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7. 港鐵石硤尾站  MTR Shek Kip Mei Station</name>
+        <description>窩仔街  Woh Chai St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.16853,22.331588,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8. 名都廣場  Main Town Plaza</name>
+        <description>南昌街  Nam Cheong St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.167744,22.334231,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9. 白田救護站  Pak Tin Ambulance Depot</name>
+        <description>白雲街  Pak Wan St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1685908,22.3364124,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10. 白田邨潤田樓  Yun Tin Hse Pak Tin Est</name>
+        <description>白雲街  Pak Wan St</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.1668565,22.3368499,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線  Routeing</name>
+      <Placemark>
+        <name>行車路線  Routeing</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.16685,22.33689,0
+            114.16683,22.3369,0
+            114.1666,22.33694,0
+            114.16643,22.33697,0
+            114.16617,22.33693,0
+            114.16605,22.33691,0
+            114.16599,22.33691,0
+            114.16589,22.33692,0
+            114.16562,22.33697,0
+            114.16537,22.33701,0
+            114.16521,22.33704,0
+            114.16514,22.33704,0
+            114.16509,22.33703,0
+            114.16505,22.33702,0
+            114.16502,22.33701,0
+            114.16499,22.33699,0
+            114.16497,22.33698,0
+            114.16495,22.33696,0
+            114.16491,22.33693,0
+            114.16487,22.33687,0
+            114.16484,22.3368,0
+            114.16484,22.33672,0
+            114.16484,22.33667,0
+            114.16484,22.33666,0
+            114.1649,22.33647,0
+            114.16499,22.33614,0
+            114.16501,22.33609,0
+            114.16503,22.33605,0
+            114.16505,22.33602,0
+            114.16507,22.336,0
+            114.16511,22.33596,0
+            114.16515,22.33594,0
+            114.16521,22.33592,0
+            114.16529,22.3359,0
+            114.1655,22.33586,0
+            114.16564,22.33584,0
+            114.1659,22.33579,0
+            114.1663,22.33571,0
+            114.16639,22.33568,0
+            114.16645,22.33564,0
+            114.16649,22.33561,0
+            114.16658,22.33554,0
+            114.16648,22.33544,0
+            114.16629,22.33525,0
+            114.16627,22.33523,0
+            114.16623,22.33521,0
+            114.16615,22.33518,0
+            114.16605,22.33515,0
+            114.16581,22.33506,0
+            114.16544,22.33492,0
+            114.1653,22.33482,0
+            114.16521,22.33474,0
+            114.16471,22.3342,0
+            114.16458,22.33406,0
+            114.16392,22.33332,0
+            114.16413,22.33316,0
+            114.16417,22.33313,0
+            114.16474,22.33268,0
+            114.16479,22.33265,0
+            114.16497,22.33251,0
+            114.16499,22.33249,0
+            114.16532,22.33224,0
+            114.16543,22.33214,0
+            114.16572,22.33194,0
+            114.16576,22.33191,0
+            114.16582,22.33186,0
+            114.16595,22.33175,0
+            114.16631,22.33147,0
+            114.16656,22.33128,0
+            114.16678,22.33153,0
+            114.16684,22.3316,0
+            114.16696,22.33173,0
+            114.16716,22.33194,0
+            114.16726,22.33204,0
+            114.1674,22.33218,0
+            114.16752,22.33209,0
+            114.16791,22.33178,0
+            114.16793,22.33176,0
+            114.16809,22.33167,0
+            114.16826,22.3316,0
+            114.16836,22.33158,0
+            114.16849,22.33156,0
+            114.16853,22.33156,0
+            114.16862,22.33155,0
+            114.16875,22.33154,0
+            114.16877,22.33256,0
+            114.16875,22.33265,0
+            114.16874,22.33269,0
+            114.1687,22.33274,0
+            114.16867,22.33279,0
+            114.16862,22.33283,0
+            114.1686,22.33284,0
+            114.16856,22.33288,0
+            114.16812,22.33323,0
+            114.16808,22.33327,0
+            114.16797,22.33335,0
+            114.16782,22.33346,0
+            114.16747,22.33372,0
+            114.16744,22.33373,0
+            114.16738,22.33376,0
+            114.1674,22.33379,0
+            114.16763,22.33404,0
+            114.16772,22.33413,0
+            114.16783,22.33426,0
+            114.16787,22.33432,0
+            114.16797,22.33442,0
+            114.16837,22.33488,0
+            114.16858,22.33511,0
+            114.16863,22.33518,0
+            114.16877,22.33533,0
+            114.1688,22.33537,0
+            114.16887,22.33545,0
+            114.1689,22.33551,0
+            114.16894,22.33561,0
+            114.16898,22.3357,0
+            114.16901,22.33583,0
+            114.16906,22.33608,0
+            114.16909,22.33621,0
+            114.16913,22.33636,0
+            114.16855,22.33646,0
+            114.16769,22.33662,0
+            114.16744,22.33669,0
+            114.16731,22.33676,0
+            114.16708,22.33683,0
+            114.16696,22.33686,0
+            114.16687,22.33689,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Pak Tin Bus Terminus, Pak Tin, Hong Kong</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1668454,22.336892,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pak Tin Bus Terminus, Pak Tin, Hong Kong</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1668657,22.3368872,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

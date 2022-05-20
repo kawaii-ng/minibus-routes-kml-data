@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>九龍區專線小巴45M號線：往深水埗</name>
+    <description><![CDATA[Kowloon GMB Route 45M: to Sham Shui Po<br><br><br>九龍區專線小巴45M號線<br>深水埗(基隆街)—明愛醫院<br>路線圖及分站位置(往深水埗方向)<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gk_45m.html<br><br>© www.16seats.net 著作權所有<br><br><br>Kowloon GMB Route 45M<br>Sham Shui Po (Ki Lung St) - Caritas Medical Centre<br>Route Map and Stop Location (Sham Shui Po bound)<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gk_45m.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-1-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-1-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-2-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-3-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-3-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-4-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-4-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>分站位置  Stop Location</name>
+      <Placemark>
+        <name>1. 明愛醫院懷明樓  Wai Ming Blk Caritas Medical Centre</name>
+        <styleUrl>#icon-ci-1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1525686,22.3408227,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2. 蘇屋邨劍蘭樓  Gladiolus Hse So Uk Est</name>
+        <description>保安道  Po On Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.155425,22.340636,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3. 蘇屋邨杜鵑樓  Azalea Hse So Uk Est</name>
+        <description>保安道  Po On Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.156412,22.33987,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4. 保安道遊樂場  Po On Rd Playground</name>
+        <description>保安道  Po On Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.157439,22.339078,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5. 李鄭屋商場  Lei Cheng Uk Shopping Centre</name>
+        <description>保安道  Po On Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.158225,22.338468,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6. 李鄭屋邨信義樓  Shun Yee Hse Lei Cheng Uk Est</name>
+        <description>保安道  Po On Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.158946,22.337912,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7. 宇宙商場  Apollo Shopping Centre</name>
+        <description>東京街  Tonkin St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.159357,22.336692,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8. 港鐵長沙灣站  MTR Cheung Sha Wan Station</name>
+        <description>東京街  Tonkin St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.15783,22.33497,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9. 海峯  Vista</name>
+        <description>福華街  Fuk Wa St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.160888,22.332687,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10. 西九龍中心  Dragon Centre</name>
+        <description>欽州街  Yen Chow St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.160124,22.330715,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11. 北河街街市  Pei Ho St Market</name>
+        <description>基隆街  Ki Lung St</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.1615657,22.3292215,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線  Routeing</name>
+      <Placemark>
+        <name>Directions from 5 Wing Ming St, Hong Kong to 333 Ki Lung St, Sham Shui Po, Hong Kong</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.15253,22.34096,0
+            114.15269,22.34102,0
+            114.15271,22.34103,0
+            114.15273,22.34105,0
+            114.15275,22.34105,0
+            114.15279,22.34106,0
+            114.15282,22.34107,0
+            114.15292,22.3411,0
+            114.15294,22.34111,0
+            114.15297,22.34113,0
+            114.15299,22.34115,0
+            114.153,22.34117,0
+            114.15302,22.34119,0
+            114.15304,22.34121,0
+            114.15307,22.34121,0
+            114.1531,22.34121,0
+            114.15314,22.34119,0
+            114.15318,22.34119,0
+            114.15323,22.34117,0
+            114.15329,22.34117,0
+            114.15331,22.34117,0
+            114.15337,22.34117,0
+            114.15344,22.34119,0
+            114.15351,22.34121,0
+            114.15357,22.34123,0
+            114.15361,22.34123,0
+            114.15365,22.34123,0
+            114.15371,22.34122,0
+            114.15375,22.3412,0
+            114.1538,22.34117,0
+            114.15386,22.34112,0
+            114.15396,22.341,0
+            114.15396,22.34099,0
+            114.15397,22.34098,0
+            114.15398,22.34098,0
+            114.15399,22.34098,0
+            114.154,22.34098,0
+            114.15404,22.34099,0
+            114.15431,22.34111,0
+            114.15455,22.3412,0
+            114.15457,22.3412,0
+            114.15459,22.3412,0
+            114.1546,22.3412,0
+            114.15462,22.34119,0
+            114.15467,22.34115,0
+            114.15472,22.34112,0
+            114.15513,22.34081,0
+            114.15597,22.34017,0
+            114.15611,22.34007,0
+            114.15651,22.33975,0
+            114.15697,22.33939,0
+            114.15739,22.33907,0
+            114.15749,22.33899,0
+            114.15757,22.33893,0
+            114.1579,22.33868,0
+            114.15801,22.33859,0
+            114.15837,22.33831,0
+            114.15843,22.33826,0
+            114.15876,22.33801,0
+            114.15921,22.33765,0
+            114.15963,22.3373,0
+            114.15975,22.33721,0
+            114.15945,22.33686,0
+            114.15941,22.33681,0
+            114.15921,22.33659,0
+            114.15901,22.33637,0
+            114.15864,22.33593,0
+            114.15821,22.33546,0
+            114.15787,22.33509,0
+            114.15768,22.33488,0
+            114.15744,22.33461,0
+            114.15835,22.33388,0
+            114.15916,22.33325,0
+            114.16011,22.33249,0
+            114.16031,22.33272,0
+            114.16051,22.33295,0
+            114.1606,22.33288,0
+            114.16082,22.3327,0
+            114.16095,22.3326,0
+            114.16137,22.33228,0
+            114.16145,22.33222,0
+            114.16129,22.33203,0
+            114.16113,22.33185,0
+            114.16105,22.33177,0
+            114.16097,22.33168,0
+            114.16089,22.33158,0
+            114.1606,22.33127,0
+            114.16044,22.3311,0
+            114.16024,22.33089,0
+            114.16009,22.33071,0
+            114.15991,22.3305,0
+            114.16014,22.33029,0
+            114.16054,22.32996,0
+            114.16072,22.32981,0
+            114.16154,22.32919,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>5 Wing Ming St, Hong Kong</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1525288,22.3409629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>333 Ki Lung St, Sham Shui Po, Hong Kong</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1615438,22.3291929,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

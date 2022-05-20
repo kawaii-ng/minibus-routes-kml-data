@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>九龍區專線小巴41M號線：往又一城</name>
+    <description><![CDATA[Kowloon GMB Route 41M: to Festival Walk<br><br><br>九龍區專線小巴41M號線<br>又一城—石硤尾<br>路線圖及分站位置(往又一城方向)<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gk_41m.html<br><br>© www.16seats.net 著作權所有<br><br><br>Kowloon GMB Route 41M<br>Festival Walk - Shek Kip Mei<br>Route Map and Stop Location (Festival Walk bound)<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gk_41m.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-2-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-3-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-3-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-4-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-4-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>分站位置  Stop Location</name>
+      <Placemark>
+        <name>1. 石硤尾商場  Shek Kip Mei Shopping Centre</name>
+        <description>巴域街  Berwick St</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.166027,22.331737,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2. 港鐵石硤尾站  MTR Shek Kip Mei Station</name>
+        <description>窩仔街  Woh Chai St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1690979,22.3315869,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3. 大坑東邨東龍樓  Tung Lung Hse Tai Hang Tung Est</name>
+        <description>大坑東道  Tai Hang Tung Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1708847,22.3315065,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4. 路德會協同中學  Concordia Lutheran Sch</name>
+        <description>大坑東道  Tai Hang Tung Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1718816,22.3305963,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5. 大坑東遊樂場  Tai Hang Tung Recreation Ground</name>
+        <description>大坑東道  Tai Hang Tung Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.172167,22.328013,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6. 丹桂路  Osmanthus Rd</name>
+        <description>達之路  Tat Chee Ave</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1744295,22.3291468,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7. 德雅中學  Tak Nga Sec Sch</name>
+        <description>達之路  Tat Chee Ave</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.175005,22.33037,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8. 雀橋街  Tseuk Kiu St</name>
+        <description>達之路  Tat Chee Ave</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.175302,22.331613,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9. 又一村花園  Village Gardens</name>
+        <description>達之路  Tat Chee Ave</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.175426,22.332911,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10. 創新中心  Innocentre</name>
+        <description>達之路  Tat Chee Ave</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1756132,22.334837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11. 賽馬會環保樓  The Jockey Club Environmental Bldg</name>
+        <description>達之路  Tat Chee Ave</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1755689,22.3356817,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>12. 又一城  Festival Walk</name>
+        <description>又一城公共交通總站  Festival Walk Public Transport Terminus</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.1753,22.336471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線  Routeing</name>
+      <Placemark>
+        <name>行車路線  Routeing</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.16601,22.33171,0
+            114.16631,22.33147,0
+            114.16656,22.33128,0
+            114.16678,22.33153,0
+            114.16684,22.3316,0
+            114.16696,22.33173,0
+            114.16716,22.33194,0
+            114.16726,22.33204,0
+            114.1674,22.33218,0
+            114.16751,22.3321,0
+            114.16791,22.33178,0
+            114.16793,22.33176,0
+            114.16808,22.33168,0
+            114.16824,22.3316,0
+            114.16847,22.33156,0
+            114.16875,22.33154,0
+            114.16905,22.33155,0
+            114.16973,22.33155,0
+            114.17034,22.33155,0
+            114.17056,22.33155,0
+            114.17066,22.33153,0
+            114.17071,22.33152,0
+            114.17077,22.33151,0
+            114.17081,22.33149,0
+            114.17087,22.33147,0
+            114.17095,22.33144,0
+            114.17108,22.33138,0
+            114.17142,22.33115,0
+            114.17146,22.33113,0
+            114.1715,22.33109,0
+            114.17156,22.331,0
+            114.17159,22.33096,0
+            114.17166,22.33086,0
+            114.17166,22.33085,0
+            114.17195,22.3304,0
+            114.17197,22.33036,0
+            114.17198,22.33034,0
+            114.172,22.33031,0
+            114.172,22.3303,0
+            114.17201,22.33027,0
+            114.17201,22.33025,0
+            114.17202,22.33023,0
+            114.17204,22.33001,0
+            114.17204,22.3298,0
+            114.17206,22.32939,0
+            114.17207,22.32903,0
+            114.1721,22.32839,0
+            114.17212,22.32804,0
+            114.17213,22.32783,0
+            114.17213,22.32779,0
+            114.17213,22.32776,0
+            114.17212,22.32773,0
+            114.17208,22.32755,0
+            114.17207,22.32753,0
+            114.17207,22.32751,0
+            114.17207,22.32749,0
+            114.17209,22.32736,0
+            114.17276,22.32735,0
+            114.1728,22.32735,0
+            114.17286,22.32736,0
+            114.17295,22.32738,0
+            114.17298,22.3274,0
+            114.17302,22.32743,0
+            114.17309,22.32749,0
+            114.17316,22.32757,0
+            114.17379,22.32824,0
+            114.17402,22.3285,0
+            114.1742,22.32873,0
+            114.17435,22.32893,0
+            114.17441,22.32903,0
+            114.17463,22.3294,0
+            114.17473,22.32963,0
+            114.17489,22.32998,0
+            114.175,22.33023,0
+            114.17507,22.33044,0
+            114.17513,22.33066,0
+            114.17521,22.33096,0
+            114.17534,22.33161,0
+            114.17536,22.33182,0
+            114.17537,22.33191,0
+            114.17538,22.33197,0
+            114.17541,22.33231,0
+            114.17544,22.33269,0
+            114.17558,22.33408,0
+            114.17567,22.33492,0
+            114.17569,22.33499,0
+            114.1757,22.33511,0
+            114.17571,22.33518,0
+            114.17571,22.33522,0
+            114.17571,22.33529,0
+            114.1757,22.33536,0
+            114.17569,22.33544,0
+            114.17568,22.33551,0
+            114.17567,22.33555,0
+            114.17565,22.33559,0
+            114.17564,22.33564,0
+            114.1756,22.33573,0
+            114.17559,22.33574,0
+            114.17549,22.33581,0
+            114.17544,22.33589,0
+            114.17536,22.33597,0
+            114.17526,22.33605,0
+            114.17519,22.3361,0
+            114.17511,22.33615,0
+            114.17511,22.33616,0
+            114.17504,22.3362,0
+            114.1748,22.33638,0
+            114.17458,22.33655,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>香港石硤尾石硤尾街市</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1660065,22.3317094,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>香港九龍塘City University of Hong Kong 83 Tat Chee Avenue</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1745778,22.3365464,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

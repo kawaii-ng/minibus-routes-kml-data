@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>新界區專線小巴31A號線：往元朗廣場</name>
+    <description><![CDATA[New Territories GMB Route 31A: to Yuen Long Plaza<br><br><br>新界區專線小巴31A號線<br>唐人新村＞元朗廣場<br>路線圖及分站位置<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gn_31a.html<br><br>© www.16seats.net 著作權所有<br><br><br>New Territories GMB Route 31A<br>Tong Yan San Tsuen > Yuen Long Plaza<br>Route Map and Stop Location<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gn_31a.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-2-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-3-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-3">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-4-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-4-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-5-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-5-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-5.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-5-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-5-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-5-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>分站位置  Stop Location</name>
+      <Placemark>
+        <name>1. 唐人新村花園  Tong Yan San Tsuen Garden </name>
+        <description>唐人新村路  Tong Yan San Tsuen Rd</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.0111914,22.4365069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2. 唐人新村路71號  71 Tong Yan San Tsuen Rd </name>
+        <description>唐人新村路  Tong Yan San Tsuen Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.0097001,22.4361976,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3. 唐人新村路100號  100 Tong Yan San Tsuen Rd </name>
+        <description>唐人新村路  Tong Yan San Tsuen Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.0080566,22.4345594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4. 錦麗花園  Kam Lai Garden </name>
+        <description>唐人新村路  Tong Yan San Tsuen Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.0085293,22.4334519,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5. 唐人新村路122號  122 Tong Yan San Tsuen Rd </name>
+        <description>唐人新村路  Tong Yan San Tsuen Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.0098456,22.4329445,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6. 柏𣾷  The Parkhill
+</name>
+        <description>唐人新村路  Tong Yan San Tsuen Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.0103128,22.4328151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7. 山唐蔬菜站  Shan Tong Vegetable Station
+</name>
+        <description>唐人新村路  Tong Yan San Tsuen Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.0112109,22.4325358,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8. 逸翠軒  Greenville Residence </name>
+        <description>沙井路  Sha Tseng Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.0115817,22.4332145,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9. 金碧花園  The Eldorado </name>
+        <description>沙井路  Sha Tseng Rd</description>
+        <styleUrl>#icon-ci-3</styleUrl>
+        <Point>
+          <coordinates>
+            114.0119639,22.4358021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10. 唐泰路  Tong Tai Rd
+</name>
+        <description>唐人新村路  Tong Yan San Tsuen Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.0114363,22.4373726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11. 瑋珊園  Jasper Court
+</name>
+        <description>唐人新村路  Tong Yan San Tsuen Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.0111941,22.4384482,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>12. 屏康里  Ping Hong Ln
+</name>
+        <description>唐人新村路  Tong Yan San Tsuen Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.0109954,22.4401915,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>13. 唐人新村遊樂場  Tong Yan San Tsuen Playground
+</name>
+        <description>唐人新村路  Tong Yan San Tsuen Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.011113,22.4415691,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>14. 輕鐵屏山站  LR Ping Shan Stop
+</name>
+        <description>青山公路—屏山段  Castle Peak Rd - Ping Shan</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.0129067,22.4431036,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>15. 朗庭園  Villa By The Park </name>
+        <description>青山公路—屏山段  Castle Peak Rd - Ping Shan</description>
+        <styleUrl>#icon-ci-3</styleUrl>
+        <Point>
+          <coordinates>
+            114.0180887,22.4441989,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>16. 輕鐵水邊圍站  LR Shui Pin Wai Stop </name>
+        <description>青山公路—屏山段  Castle Peak Rd - Ping Shan</description>
+        <styleUrl>#icon-ci-3</styleUrl>
+        <Point>
+          <coordinates>
+            114.0198322,22.444515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>17. 元朗廣場  Yuen Long Plaza </name>
+        <description>青山公路—元朗段  Castle Peak Rd - Yuen Long</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.0241505,22.4446352,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>18. 擊壤路  Kik Yeung Rd
+</name>
+        <description>擊壤路  Kik Yeung Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.0251132,22.4452686,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19. 基督教香港信義會啟信學校  ELCHK Lutheran Sch</name>
+        <description>元朗安寧路  Yuen Long On Ning Rd</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.0246488,22.4460701,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線  Routeing</name>
+      <Placemark>
+        <name>行車路線  Routeing</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.01118,22.43655,0
+            114.01115,22.43654,0
+            114.01106,22.43649,0
+            114.01105,22.43649,0
+            114.0109,22.43644,0
+            114.01072,22.4364,0
+            114.01046,22.43636,0
+            114.01017,22.43632,0
+            114.00953,22.43621,0
+            114.00914,22.43611,0
+            114.00861,22.43595,0
+            114.0086,22.43595,0
+            114.00845,22.4359,0
+            114.00829,22.43583,0
+            114.00814,22.43575,0
+            114.00805,22.43566,0
+            114.00798,22.43556,0
+            114.00793,22.43545,0
+            114.00789,22.43532,0
+            114.00788,22.43515,0
+            114.00788,22.43509,0
+            114.00789,22.43499,0
+            114.00791,22.43489,0
+            114.00794,22.43478,0
+            114.00799,22.43462,0
+            114.00805,22.43445,0
+            114.00813,22.43427,0
+            114.00846,22.43351,0
+            114.00847,22.43347,0
+            114.00849,22.43344,0
+            114.0085,22.43343,0
+            114.00853,22.4334,0
+            114.00855,22.43338,0
+            114.0086,22.43336,0
+            114.00885,22.43329,0
+            114.0092,22.43315,0
+            114.00938,22.43308,0
+            114.00978,22.43292,0
+            114.01024,22.4328,0
+            114.01037,22.43277,0
+            114.01085,22.43262,0
+            114.01094,22.43259,0
+            114.01114,22.43252,0
+            114.01125,22.43248,0
+            114.01137,22.43246,0
+            114.01142,22.4325,0
+            114.01146,22.43253,0
+            114.01148,22.4326,0
+            114.01149,22.43265,0
+            114.01152,22.43279,0
+            114.01159,22.43305,0
+            114.01177,22.43381,0
+            114.01188,22.43432,0
+            114.01194,22.43456,0
+            114.01199,22.43483,0
+            114.012,22.4349,0
+            114.01203,22.43518,0
+            114.01204,22.43527,0
+            114.01203,22.43565,0
+            114.01202,22.43581,0
+            114.01201,22.43594,0
+            114.012,22.43603,0
+            114.01196,22.4362,0
+            114.01191,22.43636,0
+            114.01185,22.43651,0
+            114.01181,22.43661,0
+            114.01174,22.43669,0
+            114.01167,22.43674,0
+            114.0116,22.43679,0
+            114.01145,22.43687,0
+            114.01149,22.43695,0
+            114.01151,22.43704,0
+            114.01151,22.43715,0
+            114.01148,22.43733,0
+            114.01146,22.43743,0
+            114.01145,22.43748,0
+            114.01137,22.43789,0
+            114.01118,22.43867,0
+            114.01103,22.43924,0
+            114.01103,22.43951,0
+            114.01103,22.43958,0
+            114.01103,22.43986,0
+            114.01103,22.43989,0
+            114.01103,22.44007,0
+            114.01103,22.4402,0
+            114.01104,22.44043,0
+            114.01107,22.44066,0
+            114.01111,22.4411,0
+            114.01112,22.4412,0
+            114.01112,22.44124,0
+            114.01113,22.44133,0
+            114.01114,22.44147,0
+            114.01116,22.44163,0
+            114.01118,22.44172,0
+            114.01126,22.44194,0
+            114.01127,22.44201,0
+            114.01129,22.44208,0
+            114.01125,22.44225,0
+            114.01125,22.44227,0
+            114.0112,22.4424,0
+            114.0117,22.44262,0
+            114.01185,22.44267,0
+            114.01193,22.44271,0
+            114.01214,22.44279,0
+            114.01232,22.44286,0
+            114.01251,22.44293,0
+            114.01276,22.44302,0
+            114.01287,22.44306,0
+            114.013,22.4431,0
+            114.01306,22.44312,0
+            114.01322,22.44317,0
+            114.01348,22.44325,0
+            114.01372,22.44332,0
+            114.01397,22.44339,0
+            114.01413,22.44344,0
+            114.01416,22.44344,0
+            114.01434,22.44349,0
+            114.0147,22.44358,0
+            114.01521,22.4437,0
+            114.01577,22.44379,0
+            114.01623,22.44387,0
+            114.01627,22.44388,0
+            114.01636,22.4439,0
+            114.01639,22.44392,0
+            114.01641,22.44393,0
+            114.01642,22.44394,0
+            114.01644,22.44397,0
+            114.01647,22.44401,0
+            114.0165,22.44406,0
+            114.01655,22.44411,0
+            114.01658,22.44413,0
+            114.01662,22.44417,0
+            114.01668,22.44419,0
+            114.01675,22.44422,0
+            114.01682,22.44423,0
+            114.01689,22.44423,0
+            114.01694,22.44422,0
+            114.017,22.44421,0
+            114.0171,22.44418,0
+            114.01728,22.44417,0
+            114.0177,22.44414,0
+            114.01786,22.44414,0
+            114.01804,22.44415,0
+            114.01821,22.44418,0
+            114.0186,22.44425,0
+            114.01906,22.44434,0
+            114.0198,22.44447,0
+            114.02015,22.44453,0
+            114.02018,22.44453,0
+            114.02058,22.44459,0
+            114.02081,22.44461,0
+            114.02113,22.44462,0
+            114.02139,22.44463,0
+            114.02157,22.44463,0
+            114.02171,22.44463,0
+            114.02182,22.44464,0
+            114.02222,22.44464,0
+            114.02252,22.44464,0
+            114.02287,22.44462,0
+            114.02326,22.44461,0
+            114.02327,22.44461,0
+            114.02334,22.44461,0
+            114.02364,22.4446,0
+            114.02387,22.44461,0
+            114.02408,22.4446,0
+            114.02445,22.44458,0
+            114.02468,22.44457,0
+            114.02514,22.44458,0
+            114.02515,22.44507,0
+            114.02516,22.44563,0
+            114.02516,22.44582,0
+            114.02516,22.4461,0
+            114.02485,22.44611,0
+            114.02465,22.44611,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>香港屏山唐人新村路58-68號</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.011176,22.436548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>香港元朗元朗安寧路105號</name>
+        <styleUrl>#icon-ci-5-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.0246471,22.4461124,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

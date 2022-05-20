@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>九龍區專線小巴42號線：往澤安邨</name>
+    <description><![CDATA[Kowloon GMB Route 42: to Chak On Est<br><br><br>九龍區專線小巴42號線<br>長沙灣(汝州西街)—澤安邨<br>路線圖及分站位置(往澤安邨方向)<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gk_42.html<br><br>© www.16seats.net 著作權所有<br><br><br>Kowloon GMB Route 42<br>Cheung Sha Wan (Yu Chau W St) - Chak On Est<br>Route Map and Stop Location (Chak On Est bound)<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gk_42.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-2-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-3-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-3-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-4-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-4-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>分站位置  Stop Location</name>
+      <Placemark>
+        <name>1. 汝州西街  Yu Chau W St</name>
+        <description>汝州西街  Yu Chau W St</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.1502493,22.3392068,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2. 聯邦廣場  Federal Plaza</name>
+        <description>青山道  Castle Peak Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1529177,22.3399839,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3. 昌華街  Cheung Wah St</name>
+        <description>青山道  Castle Peak rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.154851,22.339654,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4. 順寧道  Shun Ning Rd</name>
+        <description>興華街  Hing Wah St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.155366,22.33955,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5. 蘇屋邨杜鵑樓  Azalea Hse So Uk Est</name>
+        <description>保安道  Po On Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.156436,22.339857,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6. 李鄭屋商場  Lei Cheng Uk Shopping Centre</name>
+        <description>保安道  Po On Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.158217,22.338475,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7. 宇宙商場  Apollo Shopping Centre</name>
+        <description>東京街  Tonkin St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.159231,22.336545,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8. 天悅深水埗廣場  Smiling Sham Shui Po Plaza</name>
+        <description>青山道  Castle Peak Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.160537,22.33523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9. 九江街  Kiu Kiang St</name>
+        <description>青山道  Castle Peak Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.161865,22.334206,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10. 石硤尾邨21座  Blk 21 Shek Kip Mei Est</name>
+        <description>巴域街  Berwick St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.164281,22.333092,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11. 石硤尾邨美山樓  Mei Shan Hse Shek Kip Mei Est</name>
+        <description>巴域街  Berwick St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.165174,22.332402,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>12. 石硤尾社區會堂  Shek Kip Mei Community Hall</name>
+        <description>南昌街  Nam Cheong St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.16607,22.3324,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>13. 賽馬會創意藝術中心  Jockey Club Creative Arts Centre</name>
+        <description>白田街  Pak Tin St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.166049,22.335178,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>14. 白田邨澤田樓  On Tin Hse Pak Tin Est</name>
+        <description>白雲街  Pak Wan St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.166234,22.335677,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>15. 白田邨9座  Blk 9 Pak Tin Est</name>
+        <description>白雲街  Pak Wan St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.165285,22.337069,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>16. 白田邨潤田樓  Yun Tin Hse Pak Tin Est</name>
+        <description>白雲街  Pak Wan St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1677292,22.336645,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>17. 賽馬會新生精神康復學院  Jockey Club New Life Institute of Psychiatric Rehabilitation</name>
+        <description>南昌街  Nam Cheong St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.168473,22.338423,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>18. 公共衛生檢測中心  Public Health Laboratory Centre</name>
+        <description>南昌街  Nam Cheong St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.166459,22.338808,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19. 澤安邨麗澤樓  Lai Chak Hse Chak On Est</name>
+        <description>澤安道  Chak On Rd</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.1646257,22.3405471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線  Routeing</name>
+      <Placemark>
+        <name>行車路線  Routeing</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.15021,22.3392,0
+            114.15026,22.33908,0
+            114.15094,22.33931,0
+            114.15112,22.33937,0
+            114.15149,22.3395,0
+            114.15193,22.33963,0
+            114.15227,22.33973,0
+            114.1526,22.33982,0
+            114.15286,22.33992,0
+            114.15324,22.34008,0
+            114.15371,22.34025,0
+            114.1539,22.34032,0
+            114.15439,22.33996,0
+            114.15521,22.33932,0
+            114.15561,22.33976,0
+            114.15582,22.34,0
+            114.15597,22.34017,0
+            114.15611,22.34007,0
+            114.15651,22.33975,0
+            114.15697,22.33939,0
+            114.15739,22.33907,0
+            114.15749,22.33899,0
+            114.15757,22.33893,0
+            114.1579,22.33868,0
+            114.15801,22.33859,0
+            114.15837,22.33831,0
+            114.15843,22.33826,0
+            114.15876,22.33801,0
+            114.15921,22.33765,0
+            114.15963,22.3373,0
+            114.15975,22.33721,0
+            114.15945,22.33686,0
+            114.15941,22.33681,0
+            114.15921,22.33659,0
+            114.15901,22.33637,0
+            114.15952,22.33597,0
+            114.15991,22.33566,0
+            114.16009,22.33552,0
+            114.16035,22.33532,0
+            114.16054,22.33517,0
+            114.16066,22.33508,0
+            114.16079,22.33499,0
+            114.16168,22.3343,0
+            114.16211,22.33396,0
+            114.16253,22.33362,0
+            114.16267,22.33355,0
+            114.1628,22.33351,0
+            114.16287,22.33349,0
+            114.16294,22.33348,0
+            114.16308,22.33347,0
+            114.16317,22.33348,0
+            114.16326,22.33348,0
+            114.16341,22.33351,0
+            114.16344,22.33344,0
+            114.16345,22.33339,0
+            114.1635,22.33326,0
+            114.1636,22.33308,0
+            114.16363,22.33307,0
+            114.16364,22.33307,0
+            114.16365,22.33307,0
+            114.16366,22.33307,0
+            114.16367,22.33307,0
+            114.16368,22.33307,0
+            114.16369,22.33308,0
+            114.16372,22.3331,0
+            114.16392,22.33332,0
+            114.16474,22.33268,0
+            114.16479,22.33265,0
+            114.16532,22.33224,0
+            114.16543,22.33214,0
+            114.16572,22.33194,0
+            114.16578,22.33201,0
+            114.16619,22.33248,0
+            114.16653,22.33286,0
+            114.16579,22.33339,0
+            114.16471,22.3342,0
+            114.16521,22.33475,0
+            114.16529,22.33483,0
+            114.16542,22.33494,0
+            114.16615,22.33517,0
+            114.16624,22.33521,0
+            114.16627,22.33523,0
+            114.16629,22.33525,0
+            114.16648,22.33544,0
+            114.16658,22.33554,0
+            114.16649,22.33563,0
+            114.16645,22.33565,0
+            114.16642,22.33567,0
+            114.16636,22.33569,0
+            114.1659,22.33579,0
+            114.16564,22.33584,0
+            114.1655,22.33587,0
+            114.16522,22.33592,0
+            114.16516,22.33594,0
+            114.16512,22.33596,0
+            114.16507,22.336,0
+            114.16505,22.33602,0
+            114.16503,22.33605,0
+            114.16501,22.33609,0
+            114.16499,22.33614,0
+            114.1649,22.33647,0
+            114.16484,22.33666,0
+            114.16484,22.33672,0
+            114.16484,22.3368,0
+            114.16487,22.33687,0
+            114.16492,22.33694,0
+            114.16496,22.33697,0
+            114.16499,22.33699,0
+            114.16502,22.33701,0
+            114.16507,22.33703,0
+            114.16514,22.33704,0
+            114.16521,22.33704,0
+            114.16537,22.33701,0
+            114.16562,22.33697,0
+            114.16589,22.33692,0
+            114.16597,22.33692,0
+            114.16617,22.33693,0
+            114.16643,22.33697,0
+            114.1666,22.33694,0
+            114.16685,22.33691,0
+            114.16697,22.33688,0
+            114.16709,22.33684,0
+            114.16731,22.33676,0
+            114.16744,22.33669,0
+            114.16769,22.33662,0
+            114.16855,22.33646,0
+            114.16913,22.33636,0
+            114.16922,22.33672,0
+            114.16925,22.3369,0
+            114.16931,22.33717,0
+            114.16935,22.33739,0
+            114.16935,22.33772,0
+            114.16935,22.33776,0
+            114.16932,22.33784,0
+            114.16929,22.33794,0
+            114.16923,22.33804,0
+            114.16916,22.33812,0
+            114.1691,22.33818,0
+            114.16903,22.33824,0
+            114.16896,22.33828,0
+            114.16894,22.33829,0
+            114.16889,22.33832,0
+            114.16878,22.33837,0
+            114.16858,22.33844,0
+            114.16856,22.33845,0
+            114.16846,22.33847,0
+            114.16829,22.33851,0
+            114.1679,22.33855,0
+            114.16772,22.33858,0
+            114.16759,22.33859,0
+            114.16669,22.3388,0
+            114.16649,22.33885,0
+            114.16629,22.33892,0
+            114.16626,22.33894,0
+            114.16624,22.33895,0
+            114.16614,22.339,0
+            114.16603,22.339,0
+            114.16586,22.33914,0
+            114.16569,22.33928,0
+            114.16565,22.33931,0
+            114.16559,22.33937,0
+            114.16552,22.33944,0
+            114.16547,22.3395,0
+            114.16542,22.33957,0
+            114.16537,22.33966,0
+            114.16532,22.33973,0
+            114.16528,22.33981,0
+            114.16524,22.33992,0
+            114.16517,22.34009,0
+            114.16513,22.34019,0
+            114.1651,22.34036,0
+            114.16507,22.34045,0
+            114.16505,22.34052,0
+            114.16493,22.34056,0
+            114.16489,22.34057,0
+            114.16486,22.34058,0
+            114.16473,22.34058,0
+            114.16462,22.34058,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>號, 783 Yu Chau W St, Cheung Sha Wan, 香港</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1502081,22.3391964,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>香港大窩坪澤安道1號</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1646246,22.3405784,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

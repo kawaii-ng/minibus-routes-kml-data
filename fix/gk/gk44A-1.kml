@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>九龍區專線小巴44A號線：往海麗邨</name>
+    <description><![CDATA[Kowloon GMB Route 44A: to Hoi Lai Est<br><br><br>九龍區專線小巴44A號線<br>海麗邨—荔枝角站<br>路線圖及分站位置(往海麗邨方向)<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gk_44a.html<br><br>© www.16seats.net 著作權所有<br><br><br>Kowloon GMB Route 44A<br>Hoi Lai Est - Lai Chi Kok Station<br>Route Map and Stop Location (Hoi Lai Est bound)<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gk_44a.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-2-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-3-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-3-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-4-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-4-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>分站位置  Stop Location</name>
+      <Placemark>
+        <name>1. 長沙灣廣場巴士總站  Cheung Sha Wan Plaza Bus Terminus</name>
+        <description>長沙灣廣場巴士總站  Cheung Sha Wan Plaza Bus Terminus</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.148735,22.336979,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2. 碧海藍天  Aqua Marine</name>
+        <description>興華街西  Hing Wah St W</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1499145,22.3331401,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3. 海麗邨  Hoi Lai Est</name>
+        <description>海麗邨公共運輸交匯處  Hoi Lai Est PTI</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.147418,22.332263,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線  Routeing</name>
+      <Placemark>
+        <name>Directions from 4 Cheung Shun St, Cheung Sha Wan, Hong Kong to 1 Hoi Lai St, Cheung Sha Wan, Hong Kong</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.14928,22.33699,0
+            114.14932,22.33701,0
+            114.14962,22.3371,0
+            114.15033,22.33737,0
+            114.15034,22.33737,0
+            114.15035,22.33737,0
+            114.15038,22.33736,0
+            114.15041,22.33735,0
+            114.15041,22.33734,0
+            114.15042,22.33732,0
+            114.15056,22.33698,0
+            114.15057,22.33696,0
+            114.15056,22.33695,0
+            114.15056,22.33693,0
+            114.15055,22.33691,0
+            114.15054,22.33689,0
+            114.15052,22.33688,0
+            114.15049,22.33686,0
+            114.15013,22.33673,0
+            114.14981,22.33662,0
+            114.14885,22.3363,0
+            114.1482,22.3361,0
+            114.14835,22.33576,0
+            114.14858,22.33582,0
+            114.14869,22.33585,0
+            114.14898,22.33593,0
+            114.14909,22.33595,0
+            114.14916,22.3359,0
+            114.14918,22.33588,0
+            114.1492,22.33586,0
+            114.14922,22.33585,0
+            114.14939,22.33584,0
+            114.14949,22.33582,0
+            114.14964,22.33578,0
+            114.14971,22.33575,0
+            114.14975,22.33573,0
+            114.1498,22.33569,0
+            114.14981,22.33569,0
+            114.14991,22.33562,0
+            114.14997,22.33556,0
+            114.15002,22.33552,0
+            114.15013,22.3354,0
+            114.15028,22.33521,0
+            114.15043,22.33492,0
+            114.15063,22.33446,0
+            114.15069,22.33427,0
+            114.15071,22.33418,0
+            114.15067,22.33412,0
+            114.15057,22.33396,0
+            114.15032,22.33368,0
+            114.15007,22.33341,0
+            114.14964,22.33283,0
+            114.14937,22.33239,0
+            114.14881,22.33164,0
+            114.1488,22.33148,0
+            114.14865,22.33159,0
+            114.14804,22.33205,0
+            114.14793,22.33193,0
+            114.14786,22.33185,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>4 Cheung Shun St, Cheung Sha Wan, Hong Kong</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1492774,22.3369935,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>1 Hoi Lai St, Cheung Sha Wan, Hong Kong</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1478605,22.3318501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

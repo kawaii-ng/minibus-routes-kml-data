@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>九龍區專線小巴33A號線：往鑽石山站</name>
+    <description><![CDATA[Kowloon GMB Route 33A: to Diamond Hill Station<br><br><br>九龍區專線小巴33A號線<br>海港花園—鑽石山站<br>路線圖及候車處位置(往鑽石山站方向)<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gk_33a.html<br><br>© www.16seats.net 著作權所有<br><br><br>Kowloon GMB Route 33A<br>Hilltop Gardens - Diamond Hill Station<br>Route Map and Pick-up Location (Diamond Hill Station bound)<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gk_33a.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-2-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-3-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-3-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-4-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-4-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>候車處位置  Pick-up Location</name>
+      <Placemark>
+        <name>海港花園  Hilltop Gardens</name>
+        <description>豐盛街  Fung Shing St</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.211681,22.341703,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>瓊麗苑  King Lai Court</name>
+        <description>豐盛街  Fung Shing St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.211016,22.342125,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>瓊山苑  King Shan Court</name>
+        <description>豐盛街  Fung Shing St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.21005,22.342787,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>富山邨富暉樓  Fu Fai Hse Fu Shan Est</name>
+        <description>豐盛街  Fung Shing St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.209312,22.3432277,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>富山邨街市  Fu Shan Est Market</name>
+        <description>豐盛街  Fung Shing St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.208481,22.343296,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>鑽石山火葬場  Diamond Hill Crematorium</name>
+        <description>蒲崗村道  Po Kong Village Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.2063186,22.3454587,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>蒲崗村道學校村  Po Kong Village Rd Sch Village</name>
+        <description>蒲崗村道  Po Kong Village Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.205638,22.346035,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>聖公會慈光堂  SKH Kindly Light Church</name>
+        <description>蒲崗村道  Po Kong Village Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.203562,22.346409,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>蒲英里  Po Ying Ln</name>
+        <description>蒲崗村道  Po Kong Village Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.2023998,22.3462578,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>蒲崗村道體育館  Po Kong Village Rd Sports Centre</name>
+        <description>蒲崗村道  Po Kong Village Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.2008674,22.345995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>鳳鑽苑  Fung Chuen Court</name>
+        <description>蒲崗村道  Po Kong Village Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.199094,22.344583,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>龍蟠苑  Loon Poon Court</name>
+        <description>龍蟠街  Lung Poon St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.201049,22.341165,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>港鐵鑽石山站  MTR Diamond Hill Station</name>
+        <description>鑽石山站公共運輸交匯處  Diamond Hill Station PTI</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.202103,22.34076,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線  Routeing</name>
+      <Placemark>
+        <name>行車路線  Routeing</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.21165,22.34167,0
+            114.21154,22.34178,0
+            114.21133,22.34195,0
+            114.2112,22.34205,0
+            114.21104,22.34216,0
+            114.21088,22.34227,0
+            114.21061,22.34245,0
+            114.21022,22.34272,0
+            114.20974,22.34305,0
+            114.20962,22.34313,0
+            114.20948,22.34319,0
+            114.20929,22.34328,0
+            114.20919,22.34332,0
+            114.20909,22.34334,0
+            114.20898,22.34336,0
+            114.20887,22.34336,0
+            114.20882,22.34336,0
+            114.20867,22.34336,0
+            114.20849,22.34334,0
+            114.20816,22.34327,0
+            114.20797,22.34323,0
+            114.2078,22.34318,0
+            114.20773,22.34338,0
+            114.20756,22.34392,0
+            114.20752,22.34404,0
+            114.20746,22.34423,0
+            114.20744,22.3443,0
+            114.20741,22.34436,0
+            114.20737,22.34442,0
+            114.20724,22.34457,0
+            114.2062,22.34563,0
+            114.20578,22.34599,0
+            114.20568,22.34606,0
+            114.2056,22.34612,0
+            114.20547,22.3462,0
+            114.20523,22.34631,0
+            114.20505,22.34637,0
+            114.20504,22.34638,0
+            114.2049,22.34642,0
+            114.20479,22.34644,0
+            114.20473,22.34646,0
+            114.20468,22.34646,0
+            114.20458,22.34648,0
+            114.20448,22.34649,0
+            114.2042,22.34652,0
+            114.20411,22.34651,0
+            114.20393,22.3465,0
+            114.20377,22.34648,0
+            114.20348,22.34644,0
+            114.20331,22.34642,0
+            114.20318,22.34639,0
+            114.20289,22.34635,0
+            114.20273,22.34633,0
+            114.20237,22.34629,0
+            114.20211,22.34625,0
+            114.20202,22.34623,0
+            114.20185,22.34621,0
+            114.20161,22.3461,0
+            114.20138,22.34607,0
+            114.20106,22.34606,0
+            114.20051,22.346,0
+            114.2002,22.34594,0
+            114.20005,22.34588,0
+            114.19998,22.34583,0
+            114.19987,22.34576,0
+            114.19959,22.34562,0
+            114.19952,22.34554,0
+            114.19931,22.3453,0
+            114.19925,22.34521,0
+            114.19922,22.34515,0
+            114.19914,22.34498,0
+            114.19907,22.34469,0
+            114.19898,22.34426,0
+            114.19889,22.34391,0
+            114.19888,22.34384,0
+            114.1988,22.34345,0
+            114.19876,22.34327,0
+            114.19874,22.34314,0
+            114.19871,22.34284,0
+            114.19874,22.34272,0
+            114.19877,22.34263,0
+            114.19877,22.34262,0
+            114.19879,22.34256,0
+            114.19882,22.34252,0
+            114.19885,22.34246,0
+            114.19888,22.34243,0
+            114.1989,22.3424,0
+            114.19894,22.34238,0
+            114.19899,22.34235,0
+            114.19911,22.3423,0
+            114.19921,22.34226,0
+            114.19929,22.34221,0
+            114.19935,22.34217,0
+            114.19939,22.34211,0
+            114.19943,22.34207,0
+            114.19947,22.342,0
+            114.19949,22.34192,0
+            114.19948,22.34184,0
+            114.19947,22.34173,0
+            114.19947,22.34164,0
+            114.19948,22.34157,0
+            114.1995,22.3415,0
+            114.19952,22.34143,0
+            114.19956,22.34134,0
+            114.19963,22.34125,0
+            114.19969,22.34118,0
+            114.19971,22.34117,0
+            114.19975,22.34113,0
+            114.19992,22.34101,0
+            114.2004,22.34083,0
+            114.20062,22.34075,0
+            114.20081,22.34068,0
+            114.20099,22.34063,0
+            114.20104,22.34088,0
+            114.20106,22.34104,0
+            114.20109,22.34114,0
+            114.20111,22.34122,0
+            114.20113,22.3413,0
+            114.20117,22.34138,0
+            114.20119,22.34145,0
+            114.20125,22.34156,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>香港斧山豐盛街33號</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.2116524,22.3416735,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>香港大磡龍蟠街3號</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.2012467,22.3415634,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

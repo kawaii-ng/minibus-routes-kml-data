@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>九龍區專線小巴45B號線：深水埗來往蘇屋邨</name>
+    <description><![CDATA[Kowloon GMB Route 45B: Sham Shui Po to/ from So Uk Est<br><br><br>九龍區專線小巴45B號線<br>深水埗(基隆街)—蘇屋邨 (循環線)<br>路線圖及分站位置<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gk_45b.html<br><br>© www.16seats.net 著作權所有<br><br><br>Kowloon GMB Route 45B<br>Sham Shui Po (Ki Lung St) - So Uk Est (Circular)<br>Route Map and Stop Location<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gk_45b.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-2-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-2-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-2-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-3-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-3-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-4-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-4-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-4186F0-5000-nodesc-normal">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-4186F0-5000-nodesc-highlight">
+      <LineStyle>
+        <color>fff08641</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-4186F0-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-4186F0-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-4186F0-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>分站位置  Stop Location</name>
+      <Placemark>
+        <name>1. 桂林街  Kweilin St</name>
+        <description>汝州街  Yu Chau St</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.1613507,22.3299472,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2. 西九龍中心  Dragon Centre</name>
+        <description>欽州街  Yen Chow St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.160464,22.33135,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[3. 長沙灣政府合署  Cheung Sha Wan Gov't Offices]]></name>
+        <description>長沙灣道  Cheung Sha Wan Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.160572,22.331955,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4. 怡靖苑  Yee Ching Court</name>
+        <description>長沙灣道  Cheung Sha Wan Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.159746,22.332596,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5. 怡閣苑  Yee Kok Court</name>
+        <description>長沙灣道  Cheung Sha Wan Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.159185,22.333025,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6. 港鐵長沙灣站  MTR Cheung Sha Wan Station</name>
+        <description>東京街  Tonkin St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1575333,22.3349999,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7. 恆邦商業大廈  Hang Pont Commercial Bldg</name>
+        <description>東京街  Tonkin St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.158584,22.336148,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8. 寶熙苑  Po Hei Court</name>
+        <description>順寧道  Shun Ning Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.158925,22.337126,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9. 保安道街市  Po On Rd Market</name>
+        <description>順寧道  Shun Ning Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.15716,22.33851,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>10. 蘇屋邨杜鵑樓  Azalea Hse So Uk Est</name>
+        <description>保安道  Po On Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1564194,22.3398726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>11. 蘇屋邨牡丹樓  Peony Hse So Uk Est</name>
+        <styleUrl>#icon-ci-2-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.157457,22.3421795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>12. 蘇屋邨壽菊樓  Marigold Hse So Uk Est</name>
+        <styleUrl>#icon-ci-2-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.156543,22.3421243,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>13. 蘇屋邨蘭花樓  Orchid Hse So Uk Est</name>
+        <styleUrl>#icon-ci-2-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1555365,22.3418272,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>14. 保安道遊樂場  Po On Rd Playground</name>
+        <description>保安道  Po On Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.157436,22.339076,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>15. 李鄭屋商場  Lei Cheng Uk Shopping Centre</name>
+        <description>保安道  Po On Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.158225,22.338468,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>16. 李鄭屋邨信義樓  Shun Yee Hse Lei Cheng Uk Est</name>
+        <description>保安道  Po On Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.158946,22.33791,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>17. 宇宙商場  Apollo Shopping Centre</name>
+        <description>東京街  Tonkin St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.159359,22.336689,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>18. 港鐵長沙灣站  MTR Cheung Sha Wan Station</name>
+        <description>東京街  Tonkin St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.15783,22.334965,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>19. 麗閣邨麗蘿樓  Lai Lo Hse Lai Kok Est</name>
+        <description>荔枝角道  Lai Chi Kok Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.156999,22.3313923,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>20. 深水埗警署  Sham Shui Po Police Station</name>
+        <description>荔枝角道  Lai Chi Kok Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1584923,22.3302374,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>21. 桂林街  Kweilin St</name>
+        <description>荔枝角道  Lai Chi Kok Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1604805,22.3287189,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>22. 桂林街  Kweilin St</name>
+        <description>汝州街  Yu Chau St</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.1613809,22.3299217,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>行車路線(2/3)  Routeing (2/3)</name>
+        <styleUrl>#line-4186F0-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.1554567,22.3419754,0
+            114.1556009,22.341994,0
+            114.1558215,22.3420672,0
+            114.1559663,22.3420746,0
+            114.1560448,22.3420858,0
+            114.1561474,22.3421174,0
+            114.1562212,22.3421491,0
+            114.1562661,22.3421596,0
+            114.1563191,22.3421627,0
+            114.1568542,22.3421807,0
+            114.1569554,22.3421838,0
+            114.1571532,22.3421999,0
+            114.1573799,22.3422192,0
+            114.1575495,22.3422328,0
+            114.1576716,22.3422328,0
+            114.1577721,22.3422154,0
+            114.1578593,22.3421931,0
+            114.1579384,22.3421782,0
+            114.1580323,22.342164,0
+            114.1583595,22.3421317,0
+            114.1584165,22.3421199,0
+            114.1584641,22.3420964,0
+            114.158501,22.3420666,0
+            114.1585225,22.3420399,0
+            114.1585325,22.3420163,0
+            114.1585339,22.3419959,0
+            114.1585339,22.3419525,0
+            114.1585265,22.3419177,0
+            114.1585118,22.3418768,0
+            114.158495,22.3418508,0
+            114.1584702,22.3418247,0
+            114.1584387,22.3418036,0
+            114.1583548,22.3417583,0
+            114.1582952,22.3417391,0
+            114.1581423,22.3417056,0
+            114.1580457,22.3416839,0
+            114.1579679,22.3416684,0
+            114.1583099,22.3414036,0
+            114.158318,22.3413937,0
+            114.1583267,22.3413676,0
+            114.1583247,22.3413354,0
+            114.1583139,22.3413043,0
+            114.1583012,22.3412864,0
+            114.1579532,22.3408925,0
+            114.1577514,22.3406494,0
+            114.1579733,22.3404757,0
+            114.1572887,22.339716,0
+            114.1569735,22.3393872,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線(1/3)  Routeing (1/3)</name>
+      <Placemark>
+        <name>Directions from 246-248 Yu Chau St, Sham Shui Po, Hong Kong to Orchid St, Hong Kong</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.16138,22.32998,0
+            114.16111,22.33018,0
+            114.16075,22.33048,0
+            114.16063,22.33058,0
+            114.16024,22.33089,0
+            114.16016,22.33095,0
+            114.16041,22.33122,0
+            114.16052,22.33133,0
+            114.1608,22.33164,0
+            114.1609,22.33174,0
+            114.16079,22.33183,0
+            114.15909,22.33317,0
+            114.15784,22.33414,0
+            114.15736,22.33451,0
+            114.15724,22.3346,0
+            114.15733,22.3347,0
+            114.1581,22.33558,0
+            114.15852,22.33602,0
+            114.1589,22.33645,0
+            114.15929,22.33689,0
+            114.15915,22.337,0
+            114.15839,22.33761,0
+            114.15773,22.33813,0
+            114.15752,22.3383,0
+            114.15676,22.33887,0
+            114.1566,22.33899,0
+            114.15615,22.33934,0
+            114.15574,22.33966,0
+            114.15561,22.33976,0
+            114.15582,22.34,0
+            114.15597,22.34017,0
+            114.15611,22.34007,0
+            114.15651,22.33975,0
+            114.15697,22.33939,0
+            114.15729,22.33972,0
+            114.15771,22.34019,0
+            114.15797,22.34048,0
+            114.15775,22.34065,0
+            114.15799,22.34093,0
+            114.15826,22.34124,0
+            114.15829,22.34127,0
+            114.15831,22.3413,0
+            114.15832,22.34133,0
+            114.15833,22.34137,0
+            114.15831,22.3414,0
+            114.15796,22.34167,0
+            114.15829,22.34174,0
+            114.15835,22.34176,0
+            114.15839,22.34178,0
+            114.15844,22.34181,0
+            114.15847,22.34183,0
+            114.15849,22.34185,0
+            114.15851,22.34188,0
+            114.15853,22.34192,0
+            114.15853,22.34195,0
+            114.15853,22.34199,0
+            114.15853,22.34202,0
+            114.15852,22.34204,0
+            114.15849,22.34207,0
+            114.15847,22.34209,0
+            114.15845,22.3421,0
+            114.15841,22.34212,0
+            114.15836,22.34213,0
+            114.15814,22.34215,0
+            114.15803,22.34216,0
+            114.15792,22.34218,0
+            114.15785,22.34219,0
+            114.15777,22.34222,0
+            114.15767,22.34223,0
+            114.15755,22.34223,0
+            114.15695,22.34218,0
+            114.15632,22.34216,0
+            114.15626,22.34216,0
+            114.15622,22.34215,0
+            114.15615,22.34212,0
+            114.15604,22.34209,0
+            114.15597,22.34208,0
+            114.15587,22.34207,0
+            114.15582,22.34207,0
+            114.15578,22.34205,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>246-248 Yu Chau St, Sham Shui Po, Hong Kong</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1613795,22.3299764,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Orchid St, Hong Kong</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1557816,22.3420544,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線(3/3)  Routeing (3/3)</name>
+      <Placemark>
+        <name>Directions from 335-341 Po On Rd, Hong Kong to 246-248 Yu Chau St, Sham Shui Po, Hong Kong</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.15697,22.33939,0
+            114.15739,22.33907,0
+            114.15749,22.33899,0
+            114.15757,22.33893,0
+            114.1579,22.33868,0
+            114.15801,22.33859,0
+            114.15837,22.33831,0
+            114.15843,22.33826,0
+            114.15876,22.33801,0
+            114.15921,22.33765,0
+            114.15963,22.3373,0
+            114.15975,22.33721,0
+            114.15945,22.33686,0
+            114.15941,22.33681,0
+            114.15921,22.33659,0
+            114.15901,22.33637,0
+            114.15864,22.33593,0
+            114.15821,22.33546,0
+            114.15787,22.33509,0
+            114.15768,22.33488,0
+            114.15744,22.33461,0
+            114.15736,22.33451,0
+            114.15613,22.33306,0
+            114.15606,22.33297,0
+            114.15563,22.33245,0
+            114.1558,22.33231,0
+            114.15593,22.3322,0
+            114.15618,22.332,0
+            114.1569,22.33142,0
+            114.15744,22.331,0
+            114.15841,22.33025,0
+            114.15909,22.32971,0
+            114.15915,22.32967,0
+            114.15982,22.32916,0
+            114.16003,22.329,0
+            114.16034,22.32877,0
+            114.16095,22.32833,0
+            114.16111,22.32852,0
+            114.16128,22.32873,0
+            114.16163,22.32913,0
+            114.16182,22.32933,0
+            114.16198,22.32951,0
+            114.16141,22.32995,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>335-341 Po On Rd, Hong Kong</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1569702,22.339388,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>246-248 Yu Chau St, Sham Shui Po, Hong Kong</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1614097,22.329953,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

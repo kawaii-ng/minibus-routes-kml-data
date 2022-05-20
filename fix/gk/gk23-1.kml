@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>九龍區專線小巴23號線：往雲漢邨</name>
+    <description><![CDATA[Kowloon GMB Route 23: to Wan Hon Est<br><br><br>九龍區專線小巴23號線<br>雲漢邨—裕民坊<br>路線圖及候車處位置(往雲漢邨方向)<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gk_23.html<br><br>© www.16seats.net 著作權所有<br><br><br>Kowloon GMB Route 23<br>Wan Hon Est - Yue Man Square<br>Route Map and Pick-up Location (Wan Hon Est bound)<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gk_23.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-2-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-3-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-3-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-4-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-4-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>候車處位置  Pick-up Location</name>
+      <Placemark>
+        <name>裕民坊公共運輸交匯處  Yue Man Square PTI</name>
+        <description>裕民坊公共運輸交匯處  Yue Man Square PTI</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.2247695,22.3146199,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>月華街遊樂場  Yuet Wah St Playground</name>
+        <description>協和街  Hip Wo St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.226063,22.31593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>雲漢邨  Wan Hon Est</name>
+        <description>雲漢街  Wan Hon St</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.2241262,22.3174694,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線  Routeing</name>
+      <Placemark>
+        <name>行車路線  Routeing</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.22603,22.31397,0
+            114.22598,22.31409,0
+            114.22593,22.31419,0
+            114.22581,22.31444,0
+            114.22573,22.31464,0
+            114.22571,22.31471,0
+            114.2257,22.31475,0
+            114.22569,22.31478,0
+            114.22569,22.31484,0
+            114.22569,22.3149,0
+            114.2257,22.31497,0
+            114.22572,22.31503,0
+            114.22581,22.31525,0
+            114.22587,22.31537,0
+            114.22588,22.31541,0
+            114.22592,22.31552,0
+            114.22605,22.31581,0
+            114.22612,22.31597,0
+            114.22615,22.31604,0
+            114.22623,22.3162,0
+            114.22638,22.31654,0
+            114.22644,22.31666,0
+            114.22647,22.31674,0
+            114.22675,22.31739,0
+            114.22688,22.31769,0
+            114.22664,22.31779,0
+            114.22656,22.31781,0
+            114.2265,22.31782,0
+            114.22645,22.31781,0
+            114.2261,22.31765,0
+            114.22621,22.31746,0
+            114.22622,22.31741,0
+            114.22623,22.31739,0
+            114.22623,22.31736,0
+            114.22623,22.31733,0
+            114.22621,22.31728,0
+            114.22603,22.31688,0
+            114.2259,22.31655,0
+            114.22566,22.316,0
+            114.22565,22.31599,0
+            114.22562,22.31593,0
+            114.22519,22.31609,0
+            114.22499,22.31617,0
+            114.22498,22.31618,0
+            114.22441,22.3164,0
+            114.22439,22.31641,0
+            114.22437,22.31642,0
+            114.22436,22.31643,0
+            114.22435,22.31644,0
+            114.22434,22.31646,0
+            114.22433,22.31648,0
+            114.22428,22.31661,0
+            114.22423,22.31682,0
+            114.22414,22.3172,0
+            114.22411,22.3173,0
+            114.2241,22.31737,0
+            114.22411,22.31744,0
+            114.22413,22.31747,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>25 Tung Yan St, Kwun Tong, Hong Kong</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.2260278,22.3139666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>香港觀塘瑞寧街50號</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.2241271,22.3174675,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

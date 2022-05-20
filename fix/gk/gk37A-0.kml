@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>九龍區專線小巴37A號線：往慈雲山(北)</name>
+    <description><![CDATA[Kowloon GMB Route 37A: to Tsz Wan Shan (N)<br><br><br>九龍區專線小巴37A號線<br>黃大仙站—慈雲山(北)<br>路線圖及分站位置(往慈雲山(北)方向)<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gk_37a.html<br><br>© www.16seats.net 著作權所有<br><br><br>Kowloon GMB Route 37A<br>Wong Tai Sin Station - Tsz Wan Shan (N)<br>Route Map and Stop Location (Tsz Wan Shan (N) bound)<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gk_37a.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-2-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-3-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-3-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-4-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-4-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>分站位置  Stop Location</name>
+      <Placemark>
+        <name>1. 港鐵黃大仙站  MTR Wong Tai Sin Station</name>
+        <description>沙田㘭道  Shatin Pass Rd</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.1953102,22.3426028,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2. 鳴鳳街  Ming Fung St</name>
+        <description>鳴鳳街  Ming Fung St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1971326,22.3442202,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3. 聖母醫院  Our Lady of Maryknoll Hospital</name>
+        <description>雙鳳街  Sheung Fung St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1975696,22.3457689,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4. 伍若瑜健康院  Wu York Yu Health Centre</name>
+        <description>雙鳳街  Sheung Fung St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.197696,22.347044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5. 慈樂邨樂誠樓  Lok Shing Hse Tsz Lok Est</name>
+        <description>雙鳳街  Sheung Fung St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.197761,22.347791,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6. 慈樂邨樂祥樓  Lok Cheung Hse Tsz Lok Est,</name>
+        <description>雙鳳街  Sheung Fung Est</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.198638,22.348632,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7. 慈愛苑停車場  Tsz Oi Court Car Park</name>
+        <description>雲華街  Wan Wah St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.199818,22.349389,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8. 慈愛苑三期  Tsz Oi Court Stage III</name>
+        <description>慈雲山道  Tsz Wan Shan Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.198833,22.35078,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>9. 慈雲山(北)巴士總站  Tsz Wan Shan (N) Bus Terminus</name>
+        <description>慈雲山道  Tsz Wan Shan Rd</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.1981377,22.3507339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線  Routeing</name>
+      <Placemark>
+        <name>Directions from 106 Shatin Pass Rd, Chuk Un, Hong Kong to 80 Tsz Wan Shan Rd, Tsz Wan Shan, Hong Kong</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.19536,22.3426,0
+            114.19536,22.34261,0
+            114.19539,22.34273,0
+            114.19544,22.34283,0
+            114.19549,22.3429,0
+            114.19554,22.34295,0
+            114.19562,22.34301,0
+            114.19566,22.34304,0
+            114.19574,22.34309,0
+            114.19578,22.34312,0
+            114.19585,22.34318,0
+            114.19584,22.34319,0
+            114.19583,22.34321,0
+            114.19582,22.34323,0
+            114.19581,22.34326,0
+            114.1958,22.34328,0
+            114.19579,22.34341,0
+            114.19578,22.34355,0
+            114.19578,22.34357,0
+            114.19578,22.34358,0
+            114.19577,22.34358,0
+            114.19577,22.34359,0
+            114.19576,22.34359,0
+            114.19575,22.34359,0
+            114.19574,22.3436,0
+            114.19571,22.3436,0
+            114.19575,22.34369,0
+            114.19571,22.34401,0
+            114.19576,22.34408,0
+            114.19581,22.34412,0
+            114.19588,22.34416,0
+            114.19595,22.34418,0
+            114.19598,22.34418,0
+            114.19698,22.34419,0
+            114.19735,22.34418,0
+            114.19742,22.3442,0
+            114.19757,22.34427,0
+            114.19757,22.34462,0
+            114.19758,22.34498,0
+            114.19758,22.34524,0
+            114.19761,22.3457,0
+            114.19762,22.34584,0
+            114.19763,22.34587,0
+            114.19765,22.34602,0
+            114.19766,22.34626,0
+            114.1977,22.34662,0
+            114.1977,22.34674,0
+            114.19773,22.34699,0
+            114.19777,22.34739,0
+            114.19783,22.34809,0
+            114.19788,22.34826,0
+            114.19791,22.34834,0
+            114.19794,22.34838,0
+            114.198,22.34844,0
+            114.19806,22.3485,0
+            114.19815,22.34856,0
+            114.19825,22.34859,0
+            114.19834,22.3486,0
+            114.19845,22.3486,0
+            114.19906,22.34858,0
+            114.19927,22.34856,0
+            114.1993,22.34856,0
+            114.19938,22.34856,0
+            114.19952,22.34858,0
+            114.19961,22.34862,0
+            114.19965,22.34866,0
+            114.19971,22.34875,0
+            114.19974,22.34894,0
+            114.19975,22.34901,0
+            114.19978,22.34915,0
+            114.1998,22.34921,0
+            114.19983,22.3493,0
+            114.19998,22.34971,0
+            114.20004,22.34986,0
+            114.20025,22.35034,0
+            114.20027,22.35039,0
+            114.1999,22.35052,0
+            114.19978,22.35055,0
+            114.19972,22.35058,0
+            114.19957,22.35063,0
+            114.19935,22.35072,0
+            114.19927,22.35074,0
+            114.1992,22.35076,0
+            114.19914,22.35078,0
+            114.19903,22.3508,0
+            114.19894,22.35081,0
+            114.19885,22.35082,0
+            114.19858,22.35081,0
+            114.19849,22.3508,0
+            114.19837,22.35077,0
+            114.19821,22.35071,0
+            114.19816,22.35069,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>106 Shatin Pass Rd, Chuk Un, Hong Kong</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1953555,22.342595,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>80 Tsz Wan Shan Rd, Tsz Wan Shan, Hong Kong</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1981561,22.3506896,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

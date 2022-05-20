@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>九龍區專線小巴75B號線：往深水埗</name>
+    <description><![CDATA[Kowloon GMB Route 75B: to Sham Shui Po<br><br><br>九龍區專線小巴75B號線<br>長沙灣站—深水埗(桂林街)<br>路線圖及分站位置(往深水埗方向)<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gk_75b.html<br><br>© www.16seats.net 著作權所有<br><br><br>Kowloon GMB Route 75B<br>Cheung Sha Wan Station - Sham Shui Po (Kweilin St)<br>Route Map and Stop Location (Sham Shui Po bound)<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gk_75b.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-2-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-3-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-3-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-4-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-4-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>分站位置  Stop Location</name>
+      <Placemark>
+        <name>1. 港鐵長沙灣站  MTR Cheung Sha Wan Station</name>
+        <description>發祥街  Fat Tseung St</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.1552671,22.3357476,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>2. 麗翠苑  Lai Tsui Court</name>
+        <description>發祥街  Fat Tseung St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1541897,22.3344582,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>3. 深水埗公園游泳池  Sham Shui Po Park Swimming Pool</name>
+        <description>東京街  Tonkin St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1552292,22.3319053,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>4. 西九龍法院大樓  West Kowloon Law Courts Bldg</name>
+        <description>通州街  Tung Chau St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.153398,22.3313981,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>5. 凱德苑  Hoi Tak Court</name>
+        <description>深旺道  Sham Mong Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1512138,22.3301499,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>6. 富昌邨富怡樓  Fu Yee Hse Fu Cheong Est</name>
+        <description>深旺道  Sham Mong Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1538705,22.3282223,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>7. 海壇街  Hai Tan St</name>
+        <description>欽州街  Yen Chow St</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.158391,22.329025,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>8. 桂林街  Kweilin St</name>
+        <description>荔枝角道  Lai Chi Kok Rd</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.1597911,22.3292315,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線(1/2)  Routeing (1/2)</name>
+      <Placemark>
+        <name>行車路線(1/2)  Routeing (1/2)</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.15523,22.33576,0
+            114.15493,22.33535,0
+            114.15485,22.33526,0
+            114.15474,22.33511,0
+            114.15448,22.33482,0
+            114.15422,22.33453,0
+            114.15409,22.33443,0
+            114.15398,22.33429,0
+            114.15371,22.33398,0
+            114.1538,22.33389,0
+            114.15431,22.3335,0
+            114.15486,22.33306,0
+            114.15554,22.33252,0
+            114.15562,22.33244,0
+            114.15556,22.33238,0
+            114.15536,22.33213,0
+            114.15504,22.33174,0
+            114.15479,22.33146,0
+            114.15469,22.33134,0
+            114.15437,22.33096,0
+            114.15423,22.33081,0
+            114.15413,22.33088,0
+            114.15339,22.33146,0
+            114.15289,22.33184,0
+            114.1522,22.33237,0
+            114.15193,22.33206,0
+            114.15177,22.33186,0
+            114.15153,22.33158,0
+            114.15146,22.33151,0
+            114.15073,22.33068,0
+            114.15061,22.33053,0
+            114.15147,22.32991,0
+            114.15199,22.32953,0
+            114.15217,22.32942,0
+            114.15264,22.32908,0
+            114.15274,22.32901,0
+            114.15301,22.32883,0
+            114.15328,22.32864,0
+            114.15355,22.32844,0
+            114.15371,22.32831,0
+            114.15377,22.32826,0
+            114.1539,22.32814,0
+            114.15404,22.32801,0
+            114.15419,22.32786,0
+            114.15433,22.3277,0
+            114.1544,22.32761,0
+            114.15446,22.32755,0
+            114.15451,22.32749,0
+            114.15472,22.32718,0
+            114.15486,22.327,0
+            114.15515,22.3267,0
+            114.15579,22.32616,0
+            114.15582,22.32614,0
+            114.15628,22.32661,0
+            114.15658,22.32694,0
+            114.15706,22.32744,0
+            114.15723,22.32761,0
+            114.15751,22.32795,0
+            114.15756,22.32801,0
+            114.15763,22.32809,0
+            114.15783,22.32834,0
+            114.15823,22.32876,0
+            114.15862,22.32921,0
+            114.15878,22.32938,0
+            114.15905,22.32966,0
+            114.15909,22.32971,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>香港長沙灣發祥街; 港鐵長沙灣站</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1552299,22.3357641,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>香港深水埗荔枝角道399號</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1590884,22.3297149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>行車路線(2/2)  Routeing (2/2)</name>
+      <Placemark>
+        <name>行車路線(2/2)  Routeing (2/2)</name>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            114.15909,22.32971,0
+            114.15915,22.32967,0
+            114.15977,22.3292,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>香港深水埗荔枝角道399號</name>
+        <styleUrl>#icon-ci-3-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1590884,22.3297149,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>香港深水埗荔枝角道368號</name>
+        <styleUrl>#icon-ci-4-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            114.1597664,22.3291993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
