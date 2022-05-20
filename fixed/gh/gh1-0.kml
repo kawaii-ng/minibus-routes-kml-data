@@ -4,7 +4,7 @@
     
     <Folder>
       <name>行車路線(1/2)  Routeing (1/2)</name>
-      <Placemark>
+     
         <name>行車路線(1/2)  Routeing (1/2)</name>
         <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
         <LineString>
@@ -750,12 +750,11 @@
             114.14954,22.2602,0
           </coordinates>
         </LineString>
-      </Placemark>
-     
+ 
     </Folder>
     <Folder>
       <name>行車路線(2/2)  Routeing (2/2)</name>
-      <Placemark>
+      
         <name>行車路線(2/2)  Routeing (2/2)</name>
         <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
         <LineString>
@@ -908,7 +907,7 @@
             114.14979,22.26973,0
           </coordinates>
         </LineString>
-      </Placemark>
+ 
       
     </Folder>
   </Document>
