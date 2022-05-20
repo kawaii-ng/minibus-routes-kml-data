@@ -77,10 +77,10 @@
       <name>(未命名的圖層)</name>
     </Folder> -->
     <Folder>
-      <name>從3-5 Pat Tat St On Tat Factory Building B3 , 1/F, San Po Kong, 香港到MTR Station Kiosk, No. KOB 3, Kowloon Bay Station, Kowloon Bay, 香港的路線</name>
+      <!-- <name>從3-5 Pat Tat St On Tat Factory Building B3 , 1/F, San Po Kong, 香港到MTR Station Kiosk, No. KOB 3, Kowloon Bay Station, Kowloon Bay, 香港的路線</name>
       <Placemark>
         <name>從3-5 Pat Tat St On Tat Factory Building B3 , 1/F, San Po Kong, 香港到MTR Station Kiosk, No. KOB 3, Kowloon Bay Station, Kowloon Bay, 香港的路線</name>
-        <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
+        <styleUrl>#line-1267FF-5000-nodesc</styleUrl> -->
         <LineString>
           <tessellate>1</tessellate>
           <coordinates>
@@ -421,7 +421,7 @@
             114.21407,22.32323,0
           </coordinates>
         </LineString>
-      </Placemark>
+      <!-- </Placemark> -->
       <!-- <Placemark>
         <name>3-5 Pat Tat St On Tat Factory Building B3 , 1/F, San Po Kong, 香港</name>
         <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
