@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-  <Document>
+  <!-- <Document>
     <name>港島區專線小巴1號線：往山頂</name>
     <description><![CDATA[Hong Kong Island GMB Route 1: to The Peak<br><br><br>港島區專線小巴1號線<br>香港站—山頂<br>路線圖及候車處位置(往山頂方向)<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gh_1.html<br><br>© www.16seats.net 著作權所有<br><br><br>Hong Kong Island GMB Route 1<br>Hong Kong Station - The Peak<br>Route Map and Pick-up Location (The Peak bound)<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gh_1.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
     <Style id="icon-ci-1-normal">
@@ -1266,6 +1266,6 @@
           </coordinates>
         </Point>
       </Placemark>
-    </Folder>
-  </Document>
+    </Folder> -->
+  <!-- </Document> -->
 </kml>
