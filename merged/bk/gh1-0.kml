@@ -1,7 +1,329 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2"> 
   <Document>
-    
+    <name>港島區專線小巴1號線：往山頂</name>
+    <description><![CDATA[Hong Kong Island GMB Route 1: to The Peak<br><br><br>港島區專線小巴1號線<br>香港站—山頂<br>路線圖及候車處位置(往山頂方向)<br><br>詳細路線資料，請瀏覽：<br>http://www.16seats.net/chi/gmb/gh_1.html<br><br>© www.16seats.net 著作權所有<br><br><br>Hong Kong Island GMB Route 1<br>Hong Kong Station - The Peak<br>Route Map and Pick-up Location (The Peak bound)<br><br>For detailed route information, please visit<br>http://www.16seats.net/eng/gmb/gh_1.html<br><br>© www.16seats.net All Rights Reserved.]]></description>
+    <Style id="icon-ci-1-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-1-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-1.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-2-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-ci-2-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>images/icon-2.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-ci-2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-2-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-2-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-3-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-3-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-3.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-3-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-3-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-3-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-ci-4-nodesc-normal">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-ci-4-nodesc-highlight">
+      <IconStyle>
+        <scale>0.7</scale>
+        <Icon>
+          <href>images/icon-4.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.7</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-ci-4-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-ci-4-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-ci-4-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-1267FF-5000-nodesc-normal">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="line-1267FF-5000-nodesc-highlight">
+      <LineStyle>
+        <color>ffff6712</color>
+        <width>7.5</width>
+      </LineStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="line-1267FF-5000-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-1267FF-5000-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-1267FF-5000-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>候車處位置  Pick-up Location</name>
+      <Placemark>
+        <name>港鐵香港站  MTR Hong Kong Station</name>
+        <description>香港站公共運輸交匯處  Hong Kong Station PTI</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.157434,22.286185,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>大會堂  City Hall</name>
+        <description>干諾道中  Connaught Rd C</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.161604,22.281825,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>香港公園  Hong Kong Park</name>
+        <description>紅棉路  Cotton Tree Dr</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1606332,22.2777673,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>僑福道與山頂道交界  junction of Guildford Rd and Peak Rd</name>
+        <description>僑福道  Guildford Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.164037,22.268531,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>僑福閣  Guildford Court</name>
+        <description>僑福道  Guildford Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.162548,22.267208,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>白加道  Barker Rd</name>
+        <description>山頂道  Peak Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.163624,22.268489,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>忌利文道  Craigmin Rd</name>
+        <description>山頂道  Peak Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.159837,22.266533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>山頂道71號  71 Peak Rd</name>
+        <description>山頂道  Peak Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1538639,22.2637309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>十間  Stewart Terrace</name>
+        <description>山頂道  Peak Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.154692,22.26509,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>英基學校協會山頂小學  ESF Peak Sch</name>
+        <description><![CDATA[賓吉道  Plunkett's Rd]]></description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.152056,22.266969,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>加列山道14號  14 Mount Kellett Rd</name>
+        <description>加列山道  Mount Kellett Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1497405,22.2641339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>明德國際醫院  The Matilda International Hospital</name>
+        <description>加列山道  Mount Kellett Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.149587,22.260205,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>加列山道34號  34 Mount Kellett Rd</name>
+        <description>加列山道  Mount Kellett Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.1499311,22.2616756,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>渣甸橋  Jardine Bridge</name>
+        <description>山頂道  Peak Rd</description>
+        <styleUrl>#icon-ci-2</styleUrl>
+        <Point>
+          <coordinates>
+            114.151155,22.267257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>山頂  The Peak</name>
+        <description>山頂公共運輸總站  The Peak Public Transport Terminus</description>
+        <styleUrl>#icon-ci-1</styleUrl>
+        <Point>
+          <coordinates>
+            114.149867,22.270224,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
     <Folder>
       <name>行車路線(1/2)  Routeing (1/2)</name>
       <Placemark>
