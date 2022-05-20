@@ -5,7 +5,6 @@
     <description/>
     <Folder>
         <LineString>
-          <tessellate>1</tessellate>
           <coordinates>
             114.19863,22.33663,0
             114.19907,22.33634,0
