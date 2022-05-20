@@ -349,24 +349,6 @@
           </coordinates>
         </LineString>
       </Placemark>
-      <Placemark>
-        <name>3-5 Pat Tat St On Tat Factory Building B3 , 1/F, San Po Kong, 香港</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            114.1986346,22.3366284,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>MTR Station Kiosk, No. KOB 3, Kowloon Bay Station, Kowloon Bay, 香港</name>
-        <styleUrl>#icon-1899-DB4436-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            114.2140703,22.3232267,0
-          </coordinates>
-        </Point>
-      </Placemark>
     </Folder>
   </Document>
 </kml>
