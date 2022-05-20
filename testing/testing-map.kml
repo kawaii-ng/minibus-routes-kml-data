@@ -81,7 +81,7 @@
       <Placemark>
         <name>從3-5 Pat Tat St On Tat Factory Building B3 , 1/F, San Po Kong, 香港到MTR Station Kiosk, No. KOB 3, Kowloon Bay Station, Kowloon Bay, 香港的路線</name>
         <styleUrl>#line-1267FF-5000-nodesc</styleUrl> -->
-        <LineString>
+        <!-- <LineString>
           <!-- <tessellate>1</tessellate> -->
           <coordinates>
             114.19863,22.33663,0
@@ -420,7 +420,7 @@
             114.21404,22.32362,0
             114.21407,22.32323,0
           </coordinates>
-        </LineString>
+        </LineString> -->
       <!-- </Placemark> -->
       <!-- <Placemark>
         <name>3-5 Pat Tat St On Tat Factory Building B3 , 1/F, San Po Kong, 香港</name>
