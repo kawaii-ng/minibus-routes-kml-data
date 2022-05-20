@@ -326,7 +326,7 @@
     </Folder>
     <Folder>
       <name>行車路線(1/2)  Routeing (1/2)</name>
-      <Placemark>
+     
         <name>行車路線(1/2)  Routeing (1/2)</name>
         <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
         <LineString>
@@ -1072,29 +1072,11 @@
             114.14954,22.2602,0
           </coordinates>
         </LineString>
-      </Placemark>
-      <Placemark>
-        <name>香港中環金融街8號香港四季酒店</name>
-        <styleUrl>#icon-ci-3-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            114.1561278,22.2864447,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>香港山頂加列山道44號</name>
-        <styleUrl>#icon-ci-4-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            114.1495424,22.2601994,0
-          </coordinates>
-        </Point>
-      </Placemark>
+ 
     </Folder>
     <Folder>
       <name>行車路線(2/2)  Routeing (2/2)</name>
-      <Placemark>
+      
         <name>行車路線(2/2)  Routeing (2/2)</name>
         <styleUrl>#line-1267FF-5000-nodesc</styleUrl>
         <LineString>
@@ -1247,25 +1229,8 @@
             114.14979,22.26973,0
           </coordinates>
         </LineString>
-      </Placemark>
-      <Placemark>
-        <name>香港山頂加列山道44號</name>
-        <styleUrl>#icon-ci-3-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            114.1495424,22.2601994,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>香港山頂山頂道118號山頂廣場</name>
-        <styleUrl>#icon-ci-4-nodesc</styleUrl>
-        <Point>
-          <coordinates>
-            114.1497941,22.2697262,0
-          </coordinates>
-        </Point>
-      </Placemark>
+ 
+      
     </Folder>
   </Document>
 </kml>
